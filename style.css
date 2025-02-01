@@ -1,6 +1,6 @@
 /* Общие стили */
 body {
-  background: url('background_top_side.png') no-repeat center center;
+  background: url('background_top_side.png') no-repeat center center; 
   background-color: black;
   height: 75vh; /* Полная высота экрана */
   margin: 0;
@@ -10,24 +10,46 @@ body {
   justify-content: flex-start; /* Выравнивание сверху */
   align-items: center; /* Центровка содержимого */
   overflow-x: hidden !important;
-
+  max-height: 40vh;
 }
 
+
+
+.stripe {
+  flex-grow: 1;
+  top: 0px;
+  width: 70vh; /* 70% ширины экрана */
+  height: 3px; /* Толщина полоски */
+  background-color: #4d4d4d; /* Цвет полоски */
+  margin: 24px auto; /* Центровка полоски */
+  max-width: 1600px;
+}
 
 /* Логотип */
 .logo {
-  position: absolute; /* Фиксированное положение */
-  left: 50px; /* Расположение слева */
-  top: 50px; /* Расположение сверху */
+  top: 50%; /* Расположение сверху */
   z-index: 10; /* Логотип поверх других элементов */
+} 
+
+
+.strip-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 0px;
+  max-width: 100%;
 }
+
 
 .logo img {
   height: 80px; /* Размер логотипа */
+  left: 20px;
 }
 
 /* Заголовок */
 .header {
+  position: relative;
   width: 100%; /* Полная ширина */
   text-align: center; /* Центровка текста */
   margin-top: 25px; /* Отступ сверху */
@@ -35,11 +57,13 @@ body {
 
 /* Первая тема */
 
+.select-container {
+  padding-left: 20px;
+}
+
 select.open-select {
   color: white;
-  position: absolute;
-  right: 50px;
-  top: 75px;
+  right: 10px;
   padding: 10px;
   font-size: 16px;
   border: 0px solid #ccc;
@@ -91,15 +115,6 @@ option {
   padding-bottom: 0px;
 }
 
-/* Полоска под заголовком */
-.stripe {
-  position: relative;
-  top: 0px;
-  width: 70vh; /* 70% ширины экрана */
-  height: 3px; /* Толщина полоски */
-  background-color: #4d4d4d; /* Цвет полоски */
-  margin: 24px auto; /* Центровка полоски */
-}
 
 
 /* interactive-board */
@@ -118,7 +133,7 @@ option {
   grid-template-columns: repeat(3, 1fr); /* Три столбца */
   gap: 20px; /* Расстояние между блоками */
   margin-top: 90px;
-  justify-items: center; /* Центровка блоков */
+  justify-content: center; /* Центровка блоков */
 }
 
 /* Каждый блок */
@@ -265,11 +280,13 @@ option {
     opacity: 0.8;
 }
 
+
+
 .left-text {
   position: relative;
   margin-top: 40px;
   z-index: 10;
-  padding-right: 200px;
+  margin-right: -100px;
 }
 
 .right-text {
@@ -314,7 +331,7 @@ option {
     align-items: center;
     flex-grow: 1;
     top: -70px;
-    right: -40px;
+    right: -120px;
     filter: none;
     z-index: 3;
 }
@@ -434,7 +451,6 @@ div.info-dual-system-ru {
 }
 
 .whiteboard {
-  position: relative;
   background-color: #000000;
   padding: 50px 34%;
   color: #ffffff;
@@ -443,6 +459,7 @@ div.info-dual-system-ru {
   background-position: right;
   background-size: contain;
 }
+
 
 .features-title {
   font-size: 40px;
@@ -578,7 +595,7 @@ div.info-dual-system-ru {
 .monitor-container {
   position: absolute;
   top: 25%;
-  left: 920px;
+  left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
 }
@@ -646,11 +663,9 @@ div.info-dual-system-ru {
 
 .title-rich {
   font-family: Afacad, sans-serif;
-  font-size: 5rem;
-  font-weight: bold;
+  font-size: 60px;
   margin-bottom: 80px;
-  margin-left: 140px;
-  color: white;
+  margin-left: 0px;
 }
 
 .content-rich-interfaces {
@@ -664,6 +679,7 @@ div.info-dual-system-ru {
 }
 
 .left-section {
+  position: relative;
   margin-top: 80px;
 }
 
@@ -708,12 +724,14 @@ div.info-dual-system-ru {
 }
 
 .specs-wrapper {
+  position: relative;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .specs-wrapper-middle {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -730,13 +748,12 @@ div.info-dual-system-ru {
 .specs-right {
   color: white;
   list-style: none;
-  padding: 0;
+  padding: 0px;
   margin: 0;
   width: 33,5%; /* Чтобы два списка располагались рядом */
 }
 
 .specs-right-middle {
-  position: relative;
   color: white;
   list-style: none;
   padding: 0px;
@@ -768,13 +785,13 @@ div.info-dual-system-ru {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding-top: 200px;
 }
 
 .sizes-title {
   font-family: Afacad, sans-serif;
   position: absolute;
-  top: 130px;
+  top: 260px;
   right: 240px;
   font-size: 5rem;
   font-weight: bold;
@@ -804,9 +821,10 @@ div.info-dual-system-ru {
   background: url('./media/points_back.png') no-repeat center center;
   height: 1000px;
   width: 100%;
-  top: 450px;
+  top: 95%;
   object-fit: scale-down;
   object-fit: cover;
+  max-width: 1920px;
 }
 
 .back-down-ru {
@@ -955,6 +973,6 @@ div.info-dual-system-ru {
   height: 70px;
   margin-left: 20px;
   top: 10px;
-
+}
 
 /* Для разных размеров */

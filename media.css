@@ -1,6 +1,29 @@
-@media screen and (min-width: 321px) and (max-width: 599px) {
+@media screen and (min-width: 321px) and (max-width: 499px) {
+
+  .title {
+    position: absolute !important;
+  }
+  .logo {
+    top: 40px !important;
+    transform: translateX(-100%) !important;
+  }
+  .logo img {
+    height: 50px !important;
+  }
+
+  .select-container {
+    transform: translateX(50%);
+  }
+
+  .header {
+    display: flex !important;
+  }
+  .top-info {
+    max-width: 100%;
+  }
   .stripe {
     visibility: hidden;
+    display: none !important;
   }
   select {
     -webkit-appearance: none;
@@ -21,6 +44,11 @@
   option {
     font-size: 16px;
     padding-left: 20px;
+  }
+
+  .interactive-board {
+    position: relative !important;
+    padding-top: 50px !important;
   }
 
   .board-image {
@@ -37,9 +65,254 @@
   
   body {
     height: 50vh !important;
-    background-size: 900px !important;
+    background-size: 100vh !important;
+    max-width: 100% !important;
     overflow-x: hidden !important;
   }
+
+  /* Для русской версии */
+
+  .main-title-ru {
+    font-size: 20px !important;
+  }
+
+  .android-color-parms-win-ru {
+    font-family: "Newport Gothic Regular", sans-serif;
+    opacity: 0.7;
+    font-size: 24px;
+  }
+  .android-color-parms-ru {
+    font-size: 1.4em;
+    color: grey;
+    padding: 0px;
+  }
+
+  .os-info-params-ru {
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .title-android-info-ru {
+    font-family: "Newport Gothic Regular", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    white-space: nowrap !important;
+  }
+
+  .android-color-parms-win-ru {
+    font-family: "Newport Gothic Regular", sans-serif;
+    opacity: 0.7;
+    font-size: 22px;
+    white-space: nowrap !important;
+  }
+
+  .left-text-ru, .right-text-ru {
+    font-family: "Newport Gothic Regular", sans-serif;
+    width: 25%;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    opacity: 0.8;
+  }
+
+  .left-text-ru {
+    position: relative;
+    margin-top: 40px;
+    z-index: 10;
+    padding-right: 200px;
+  }
+
+  .right-text-ru {
+    position: relative;
+    text-align: left;
+    right: 100px;
+    top: -70px;
+    padding-left: 200px;
+  }
+
+  .info-dual-system-ru {
+    font-size: 22px;
+  }
+
+  .header-os-ru {
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+
+  div.os-win-info-ru {
+    font-family: "Newport Gothic Regular", sans-serif;
+    margin-top: -10px;
+    margin-bottom: -0px;
+  }
+
+  div.info-dual-system-ru {
+    font-size: 18px;
+    position: relative;
+    opacity: 0.9;
+    margin-bottom: -8px;
+    margin-top: -8px;
+  }
+
+  h2.info-dual-system-ru {
+    position: relative;
+    font-size: 2.7em;
+    color: #f8943b;
+    white-space: nowrap;
+  }
+
+  h3.info-dual-system-ru {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  p.info-dual-system-ru {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+
+  div.info-dual-system-ru {
+    white-space: nowrap;
+  }
+
+  .features-list-ru {
+    text-align: left;
+    flex: 1;
+  }
+
+  .features-list-ru ul {
+    list-style-type: none;
+    padding: 1px;
+    margin: 0;
+  }
+
+  .features-list-ru li {
+    font-family: "Newport Gothic Regular", sans-serif;
+    padding-top: 0px;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    position: relative;
+  }
+
+  .features-list-ru li::before {
+    content: url(./media/arrow.png);
+    display: inline;
+    width: 12px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    color: #ff8c00;
+    font-size: 24px;
+  }
+
+  .uhd-display-title-ru {
+    font-family: Newport Gothic Regular, sans-serif;
+    margin-bottom: -25px;
+    position: relative;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 4px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 2;   
+  }
+
+  .text-info-display-ru {
+    font-family: "Newport Gothic Regular", sans-serif;
+    padding: -30px;
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: normal;
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    color: white; 
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 400px;
+    margin-right: 400px; 
+  }
+
+  .title-rich-ru {
+    font-family: Newport Gothic Regular, sans-serif;
+    font-size: 3.8rem;
+    font-weight: bold;
+    margin-bottom: 80px;
+    margin-left: 140px;
+    color: white;
+  }
+
+
+  .sizes-title-ru {
+    font-family: Newport Gothic Regular, sans-serif;
+    position: absolute;
+    top: 160px;
+    right: 160px;
+    font-size: 3.8rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .back-down-ru {
+    position: relative;
+    background: url('./media/points_back.png') no-repeat center center;
+    height: 1000px;
+    width: 100%;
+    top: 500px;
+    object-fit: scale-down;
+    object-fit: cover;
+  }
+
+  .scenario-ru {
+    font-family: Newport Gothic Regular, sans-serif;
+    position: relative;
+    margin-left: 70px;
+  }
+
+  .title-scenarios-ru {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    bottom: 30px;
+    margin-left: 140px;
+  }
+
+  .photo-title-ru {
+    font-size: 40px;
+    color: #FEA613;
+    font-weight: bold;
+  }
+
+  .education-title-ru {
+    font-size: 40px;
+    color: #3AA8FD;
+    font-weight: bold;
+  }
+
+  .office-ru {
+    position: relative;
+    margin-left: 510px;
+    top: -160px;
+  }
+
+  .education-ru {
+    position: relative;
+    margin-left: 720px;
+    top: 20px;
+  }
+
+  .education-stick-ru {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    top: 10px;
+  }
+
+  /* Для русской версии конец */
+
 
   .main-title {
     font-size: 20px !important;
@@ -47,15 +320,15 @@
   }
 
   .image-container-android {
-    visibility: hidden;
+    display: none !important;
   }
 
   .dual-system {
-    padding-top: 60px !important;
+    padding-top: 80px !important;
   }
 
   .overlay {
-    height: 25% !important;
+    height: 23% !important;
   }
 
   .space-wrapper-right {
@@ -65,30 +338,63 @@
 
   .content-rich-interfaces {
     font-size: 14px !important;
+    gap: 10px !important;
+    width: 20% !important;
   }
 
   .left-text {
+    width: 100% !important;
     position: relative !important;
-    right: -420px !important;
-    top: 90px !important;
+    right: -50px !important;
+    top: -100px !important;
+    padding-right: 0px !important;
   }
   .right-text {
+    width: 100% !important;
     position: relative !important;
-    right: 470px !important;
-    top: -170px !important;
+    left: -31% !important;
+    top: 250px !important;
+    right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .dual-system {
+    width: 100% !important;
+  }
+
+  .android-color-parms {
+    white-space: nowrap !important;
+  }
+
+  .os-win-title {
+    white-space: nowrap !important;
+  }
+
+  .dual-system-content {
+    width: 100% !important;
+    z-index: 1;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./media/android_elips.png') no-repeat center center;
+    background-size: auto !important;
+}
+
+  .dual-system-title {
+    font-size: 40px !important;
   }
   
   .title-android-info {
     font-size: 1.4em !important;
   }
-
-  .info-dual-system {
-    font-size: 1.3em !important;
+  h2.info-dual-system {
+    font-size: 1.4em !important;
+  }
+  span.info-dual-system {
+    font-size: 0.8em !important;
   }
 
   .whiteboard {
-    margin-top: 100px !important;
+    width: 100% !important;
+    margin-top: 230px !important;
     background-image: none !important;
+    padding: 0px 0px !important;
   }
 
   .whiteboard-title {
@@ -96,17 +402,24 @@
   }
   .features-image {
     visibility: hidden !important;
+    display: none !important;
   }
   
   .features-list li {
     font-size: 24px !important;
-    margin-top: 10px !important;
+    margin-top: -10px !important;
+  }
+
+  .features-list li::before {
+    margin-top: -5px;
   }
 
   .features-list {
+    width: 90% !important;
     position: relative !important;
-    left: -30px !important;
+    left: 10px !important;
   }
+
   .uhd-display-title {
     font-size: 50px !important;
     top: 0px !important;
@@ -120,54 +433,82 @@
     align-content: center !important;
     justify-content: center !important;
     top: 9% !important;
-    left: 194px !important;
+    left: 50% !important;
   }
   .monitor {
-    width: 380px !important; 
+    width: 360px !important; 
   }
   .text-info-display {
-    display: inline-flex !important;
+    width: 70% !important;
     position: relative !important;
-    justify-content: center !important;
-    text-align: center !important;
     font-size: 16px !important; 
+    left: -345px !important;
+    top: -30px !important;
   }
 
-  .space-right {
-    width: 15% !important;
-    padding: 100px ;
-    margin: 100px;
+  .specs-right {
+    position: relative !important;
+    left: 110px !important;
+    color: white;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    width: 51% !important;
   }
 
+  .specs-left {
+    width: 37% !important;
+  }
+  .specs-wrapper-middle {
+    top: -174px;
+    left: 225% !important;
+  }
+
+  .circle-media-div {
+    position: relative;
+    margin-top: -130px;
+  }
   .specs-right-middle {
     position: relative !important;
-    left: -50px !important;
-    width: 30% !important; 
+    left: 0px !important;
+    width: 52% !important; 
   }
 
   .left-section {
     max-width: 400px !important;
+    left: 200% !important;
   }
 
   .image-left {
-    width: 400px !important;
+    width: 350px !important;
   }
   .image-right {
     width: 300px !important;
     height: 300px !important;
   }
   .right-section {
-    left: 80px !important;
+    width: 100% !important;
+    left: 50px !important;
   }
   .title-rich {
+    top: 50px;
+    position: relative;
     font-size: 38px !important;
-    margin-left: 100px !important;
+    left: -10% !important;
+    white-space: nowrap;
+    margin-bottom: 0px !important;
+  }
+
+  .image-circle {
+    width: max-content !important;
+    max-width: 400px;
+    margin: 0 auto 20px auto;
   }
 
   .rich-interfaces {
     position: relative !important;
     padding: 0 !important;
-    margin-top: -80% !important;
+    margin-top: -10% !important;
   }
 
   .circle-media-div {
@@ -177,71 +518,443 @@
   }
 
   .screen {
-    width: 70% !important;
+    width: 90% !important;
     height: 30% !important;
   }
 
+  .sizes-mon {
+    top: 0px !important;
+  }
+
   .sizes-title {
-    top: 140px !important;
-    text-align: center !important;
+    top: 50px !important;
+    left: 100px;
   }
 
   .back-down {
-    height: 1000px !important;
-    width: 1300px !important;
-    top: 100px !important;
+    background-size: 100vw 1200px !important;
+    top: 0px !important;
+  }
+
+  .scenarios-for {
+    margin-top: 520px !important;
   }
 
   .title-scenarios {
     font-size: 46px !important;
-    margin-left: 40px !important;
+    margin-left: 0px !important;
+    top: -300px !important;
   }
 
   .office {
     position: relative;
-    margin-left: 900px !important;
-    top: -150px !important;
+    margin-left: 30px !important;
+    margin-top: 50px !important;
   }
 
   .education {
     position: relative;
-    margin-left: 330px !important;
-    top: 30px !important;
+    margin-left: -20px !important;
+    top: 0px !important;
   }
 
-  .images-container {
-    left: 200px !important;
-  }
 
   .office-image {
     position: relative;
-    width: 350px !important;
-    height: 200px !important;
+    width: 325px !important;
+    height: 190px !important;
     bottom: 0px !important;
-    right: 300px !important;
+    right: -75px !important;
   }
+
   .education-image {
     position: relative;
-    width: 350px !important;
-    height: 200px !important;
-    border: solid 10px;
-    border-color: white;
-    z-index: 2;
-    bottom: 80px !important;
-    left: 100px !important;
+    width: 325px !important;
+    height: 190px !important;
+    bottom: -100px !important;
+    left: 75px !important;
+  }
+
+  .education-stick {
+    margin-left: 20px !important;
   }
 }
 
+@media screen and (min-width: 500px) and (max-width: 599px) {
+  .strip-container {
+    top: 10px !important;
+  }
 
-@media screen and (min-width: 600px) and (max-width: 868px) {
+  .title {
+    position: absolute !important;
+  }
+  .logo {
+    top: 50px !important;
+    transform: translateX(-100%) !important;
+  }
+  .logo img {
+    height: 40px !important;
+  }
+
+  .select-container {
+    transform: translateX(50%);
+  }
+
+  .header {
+    display: flex !important;
+  }
+  .top-info {
+    max-width: 100%;
+  }
   .stripe {
     visibility: hidden;
+    display: none !important;
+  }
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;    
+      appearance: none;         
+      background: transparent;  
+    }
+
+    select.open-select {
+      top: 70px;
+      width: 100px;
+      padding: 24px;
+      background: url('./media/planet.png') no-repeat center center;
+      background-size: 40px 40px;
+      background-color: transparent;
+      font-size: 0; /* Скрываем текст */
+    }
+    option {
+      font-size: 16px;
+      padding-left: 20px;
+    }
+
+    .interactive-board {
+      position: relative !important;
+      padding-top: 50px !important;
+    }
+
+    .board-image {
+      position: relative !important;
+      left: 9% !important;
+      width: 450px !important;
+      height: auto !important;
+      max-height: 400px !important;
+    }
+
+    .info-title {
+      font-size: 18px !important;
+    }
+    
+    body {
+      height: 70vh !important;
+      background-size: 100vh !important;
+      max-width: 100% !important;
+      overflow-x: hidden !important;
+    }
+
+
+    .main-title {
+      font-size: 20px !important;
+      margin-top: 20px !important;
+    }
+
+    .image-container-android {
+      display: none !important;
+    }
+
+    .dual-system {
+      padding-top: 80px !important;
+    }
+
+    .overlay {
+      height: 23% !important;
+    }
+
+    .space-wrapper-right {
+      position: relative !important;
+      left: -50px !important;
+    }
+
+    .content-rich-interfaces {
+      font-size: 14px !important;
+      gap: 10px !important;
+      width: 20% !important;
+    }
+
+    .left-text {
+      width: 100% !important;
+      position: relative !important;
+      right: -100px !important;
+      top: -100px !important;
+      padding-right: 0px !important;
+    }
+    .right-text {
+      width: 100% !important;
+      position: relative !important;
+      left: -19% !important;
+      top: 250px !important;
+      right: 0px !important;
+      padding-left: 0px !important;
+    }
+    .dual-system {
+      width: 100% !important;
+    }
+
+    .android-color-parms {
+      white-space: nowrap !important;
+    }
+
+    .os-win-title {
+      white-space: nowrap !important;
+    }
+
+    .dual-system-content {
+      width: 100% !important;
+      z-index: 1;
+      background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./media/android_elips.png') no-repeat center center;
+      background-size: auto !important;
+  }
+
+    .dual-system-title {
+      font-size: 40px !important;
+    }
+    
+    .title-android-info {
+      font-size: 1.4em !important;
+    }
+    h2.info-dual-system {
+      font-size: 1.4em !important;
+    }
+    span.info-dual-system {
+      font-size: 0.8em !important;
+    }
+
+    .whiteboard {
+      width: 100% !important;
+      margin-top: 230px !important;
+      background-image: none !important;
+      padding: 0px 0px !important;
+    }
+
+    .whiteboard-title {
+      font-size: 30px !important;
+    }
+    .features-image {
+      visibility: hidden !important;
+      display: none !important;
+    }
+    
+    .features-list li {
+      font-size: 24px !important;
+      margin-top: -10px !important;
+    }
+
+    .features-list li::before {
+      margin-top: -5px;
+    }
+
+    .features-list {
+      width: 90% !important;
+      position: relative !important;
+      left: 50px !important;
+      max-width: 400px;
+    }
+
+    .uhd-display-title {
+      font-size: 50px !important;
+      top: 0px !important;
+    }
+
+    .background {
+      height: 18% !important;
+    }
+
+    .monitor-container {
+      align-content: center !important;
+      justify-content: center !important;
+      top: 11% !important;
+      left: 50% !important;
+    }
+    .monitor {
+      width: 450px !important; 
+    }
+    .text-info-display {
+      width: 70% !important;
+      position: relative !important;
+      font-size: 16px !important; 
+      left: -320px !important;
+      top: -30px !important;
+    }
+
+    .specs-right {
+      position: relative !important;
+      left: 260px !important;
+      width: -10% !important;
+      margin-left: -220px !important;
+    }
+
+
+    .specs-left {
+      width: 37% !important;
+    }
+    .specs-wrapper-middle {
+      left: 90px !important;
+    }
+
+    .circle-media-div {
+      position: relative;
+      margin-top: -130px;
+    }
+    .specs-right-middle {
+      position: relative !important;
+      left: 100px !important;
+      width: 40% !important; 
+      margin-left: -150px;
+      white-space: nowrap;
+    }
+
+    .left-section {
+      max-width: 400px !important;
+      left: 220px !important;
+    }
+
+    .image-left {
+      width: 400px !important;
+    }
+    .image-right {
+      width: 300px !important;
+      height: 300px !important;
+    }
+    .right-section {
+      width: 100% !important;
+      left: 120px !important;
+    }
+    .title-rich {
+      position: relative;
+      font-size: 38px !important;
+      left: -15% !important;
+      white-space: nowrap;
+    }
+
+    .image-circle {
+      width: max-content !important;
+      max-width: 400px;
+      margin: 0 auto 20px auto;
+    }
+
+    .rich-interfaces {
+      position: relative !important;
+      padding: 0 !important;
+      margin-top: -0% !important;
+    }
+
+    .circle-media-div {
+      position: relative !important;
+      left: -50px !important;
+      top: -15% !important;
+    }
+
+    .screen {
+      width: 90% !important;
+      height: 45% !important;
+    }
+
+    .sizes-mon {
+      top: 0px !important;
+    }
+
+    .sizes-title {
+      top: 80px !important;
+      left: 100px;
+    }
+
+    .back-down {
+      background-size: 100vw 1200px !important;
+      top: -100px !important;
+    }
+
+    .scenarios-for {
+      margin-top: 520px !important;
+    }
+
+    .title-scenarios {
+      font-size: 46px !important;
+      margin-left: 85px !important;
+      top: -300px !important;
+    }
+
+    .office {
+      position: relative;
+      margin-left: 120px !important;
+      margin-top: 50px !important;
+    }
+
+    .education {
+      position: relative;
+      margin-left: 60px !important;
+      top: 0px !important;
+    }
+
+
+    .office-image {
+      position: relative;
+      width: 325px !important;
+      height: 190px !important;
+      bottom: 0px !important;
+      right: -100px !important;
+    }
+
+    .education-image {
+      position: relative;
+      width: 325px !important;
+      height: 190px !important;
+      bottom: -100px !important;
+      left: 100px !important;
+    }
+
+    .education-stick {
+      margin-left: 20px !important;
+    } 
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px) {
+  .strip-container {
+    top: 10px;
+  }
+  
+  .top-info {
+    max-width: 100%;
+  }
+  .stripe {
+    visibility: hidden;
+    display: none !important;
   }
   select {
     -webkit-appearance: none;
     -moz-appearance: none;    
     appearance: none;         
     background: transparent;  
+  }
+  .title {
+    position: absolute !important;
+  }
+  .logo {
+    top: 40px !important;
+    transform: translateX(-100%) !important;
+  }
+  .logo img {
+    height: 50px !important;
+  }
+
+  .select-container {
+    transform: translateX(50%);
+  }
+
+  .header {
+    display: flex !important;
   }
 
   select.open-select {
@@ -252,67 +965,121 @@
     background-size: 50px 50px;
     background-color: transparent;
     font-size: 0; /* Скрываем текст */
-    }
+  }
   option {
     font-size: 16px;
     padding-left: 20px;
   }
 
+  .interactive-board {
+    position: relative !important;
+    padding-top: 50px !important;
+  }
+
   .board-image {
-    margin-top: 24px;
-    margin-left: 60px;
-    width: 500px !important;
+    position: relative !important;
+    padding-left: 15% !important;
+    width: 400px !important;
     height: auto !important;
-    max-height: 600px !important;
+    max-height: 500px !important;
+  }
+
+  .info-title {
+    font-size: 18px !important;
   }
   
   body {
-    height: 50vh !important;
-    background-size: 900px !important;
+    height: 45vh !important;
+    background-size: 160vh !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
   }
+
 
   .main-title {
-    font-size: 24px !important;
-    font-weight: bold;
-    color: white; 
-    text-align: center;
-    margin-top: 20px !important;
+    font-size: 20px !important;
+    margin-top: 0px !important;
   }
 
-  .image-container-android {
-    visibility: hidden;
-  }
+  
 
   .dual-system {
-    padding-top: 60px !important;
+    padding-top: 80px !important;
+  }
+  .image-container-android {
+    display: none;
+  }
+  .overlay {
+    height: 27% !important;
+  }
+
+  .round-image {
+    width: 195px;
+    height: 215px;    
+  }
+
+  .space-wrapper-right {
+    position: relative !important;
+    left: -50px !important;
   }
 
   .content-rich-interfaces {
     font-size: 14px !important;
+    gap: 10px !important;
+    width: 20% !important;
   }
 
   .left-text {
+    width: 100% !important;
     position: relative !important;
-    right: -390px !important;
-    top: 90px !important;
+    right: -30px !important;
+    top: -100px !important;
+    padding-right: 0px !important;
   }
   .right-text {
+    width: 100% !important;
     position: relative !important;
-    right: 540px !important;
-    top: -170px !important;
+    left: -10% !important;
+    top: -175px !important;
+  }
+  .dual-system {
+    width: 100% !important;
   }
 
+  .android-color-parms {
+    white-space: nowrap !important;
+  }
+
+  .os-win-title {
+    white-space: nowrap !important;
+  }
+
+  .dual-system-content {
+    width: 100% !important;
+    z-index: 1;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./media/android_elips.png') no-repeat center center;
+    background-size: auto !important;
+}
+
+  .dual-system-title {
+    font-size: 40px !important;
+  }
+  
   .title-android-info {
     font-size: 1.4em !important;
   }
-
-  .info-dual-system {
+  h2.info-dual-system {
     font-size: 1.4em !important;
+  }
+  span.info-dual-system {
+    font-size: 0.8em !important;
   }
 
   .whiteboard {
-    margin-top: 100px !important;
-    background-image: none !important;
+    width: 100% !important;
+    margin-top: 0px !important;
+    background-size: contain !important;
+    padding: 0px 0px !important;
   }
 
   .whiteboard-title {
@@ -320,130 +1087,584 @@
   }
   .features-image {
     visibility: hidden !important;
+    display: none !important;
   }
   
   .features-list li {
     font-size: 24px !important;
-    margin-top: 10px !important;
+    margin-top: -10px !important;
+  }
+
+  .features-list li::before {
+    margin-top: -5px;
   }
 
   .features-list {
+    width: 90% !important;
     position: relative !important;
-    left: -30px !important;
+    left: 50px !important;
+    max-width: 400px;
   }
+
   .uhd-display-title {
     font-size: 50px !important;
     top: 0px !important;
   }
 
   .background {
-    height: 20% !important;
+    height: 24% !important;
   }
 
   .monitor-container {
     align-content: center !important;
     justify-content: center !important;
-    top: 12.5% !important;
-    left: 300px !important;
+    top: 14% !important;
+    left: 50% !important;
   }
   .monitor {
-    width: 500px !important; 
+    width: 600px !important; 
   }
   .text-info-display {
-    font-size: 10px !important; 
+    width: 70% !important;
+    position: relative !important;
+    font-size: 24px !important; 
+    left: -290px !important;
+    top: -30px !important;
   }
+
+  .specs-right {
+    position: relative !important;
+    left: 260px !important;
+    width: -10% !important;
+    margin-left: -180px !important;
+  }
+
+
+  .specs-left {
+    width: 23% !important;
+  }
+  .specs-wrapper-middle {
+    left: 140px !important;
+  }
+
+  .circle-media-div {
+    position: relative;
+    margin-top: -50px;
+  }
+  .specs-right-middle {
+    position: relative !important;
+    left: 100px !important;
+    width: 40% !important; 
+    margin-left: -175px;
+    white-space: nowrap;
+  }
+
   .left-section {
     max-width: 600px !important;
+    left: 200% !important;
+    top: -100px;
   }
 
   .image-left {
     width: 600px !important;
   }
-
+  .image-right {
+    width: 400px !important;
+    height: 400px !important;
+  }
   .right-section {
-    left: 20px !important;
+    width: 100% !important;
+    left: 100% !important;
   }
   .title-rich {
-    margin-left: 220px !important;
+    position: relative;
+    font-size: 60px !important;
+    left: 0% !important;
+    white-space: nowrap;
+  }
+
+  .image-circle {
+    width: max-content !important;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+  }
+
+  .rich-interfaces {
+    position: relative !important;
+    padding: 0 !important;
+    margin-top: -0% !important;
+  }
+
+  .circle-media-div {
+    position: relative !important;
+    left: -50px !important;
+    top: -15% !important;
+    z-index: 2;
   }
 
   .screen {
-    width: 70% !important;
-    height: 30% !important;
+    width: 90% !important;
+    height: 55% !important;
+  }
+
+  .sizes-mon {
+    top: 10% !important;
   }
 
   .sizes-title {
-    top: 140px !important;
-    text-align: center !important;
+    top: 0px !important;
+    left: 315px;
   }
 
   .back-down {
-    height: 1000px !important;
-    width: 1300px !important;
-    top: 100px !important;
+    background-size: 100vw 1200px !important;
+    top: 100% !important;
+  }
+
+  .scenarios-for {
+    margin-top: 520px !important;
   }
 
   .title-scenarios {
     font-size: 46px !important;
-    margin-left: 40px !important;
+    margin-left: 0px !important;
+    top: -300px !important;
   }
 
   .office {
     position: relative;
-    margin-left: 900px !important;
-    top: -150px !important;
+    margin-left: 0px !important;
+    top: -15px !important;
   }
 
   .education {
     position: relative;
-    margin-left: 330px !important;
-    top: 30px !important;
+    margin-left: -55px !important;
+    top: 40px !important;
   }
 
-  .images-container {
-    left: 200px !important;
+
+  .office-image {
+    position: relative;
+    width: 325px !important;
+    height: 200px !important;
+    bottom: 0px !important;
+    right: -270px !important;
+  }
+
+  .education-image {
+    position: relative;
+    width: 325px !important;
+    height: 200px !important;
+    bottom: 0px !important;
+    left: 315px !important;
+  }
+
+  .education-stick {
+    margin-left: 20px !important;
+  } 
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 812px) {
+
+  .office {
+    position: relative;
+    margin-left: 3% !important;
+    top: -15px !important;
+  }
+
+  .education {
+    position: relative;
+    margin-left: -5% !important;
+    top: 40px !important;
+  }
+
+
+  .office-image {
+    position: relative;
+    width: 210px !important;
+    height: 150px !important;
+    bottom: 0px !important;
+    right: -270px !important;
+  }
+
+  .education-image {
+    position: relative;
+    width: 210px !important;
+    height: 150px !important;
+    bottom: -215px !important;
+    left: 8% !important;
+  }
+}
+
+@media screen and (min-width: 813px) and (max-width: 868px) {
+
+  .office {
+    position: relative;
+    margin-left: 3% !important;
+    top: -15px !important;
+  }
+
+  .education {
+    position: relative;
+    margin-left: 5% !important;
+    top: 40px !important;
   }
 
   .office-image {
     position: relative;
-    width: 350px !important;
+    width: 325px !important;
     height: 200px !important;
     bottom: 0px !important;
-    right: 300px !important;
+    right: -45% !important;
   }
+
   .education-image {
     position: relative;
-    width: 350px !important;
+    width: 325px !important;
     height: 200px !important;
-    border: solid 10px;
-    border-color: white;
-    z-index: 2;
-    bottom: 80px !important;
-    left: 100px !important;
+    bottom: -165px !important;
+    left: 9% !important;
   }
 }
+@media screen and (min-width: 700px) and (max-width: 868px) {
+  .strip-container {
+    top: 10px;
+  }
+  
+  .top-info {
+    max-width: 100%;
+  }
+  .stripe {
+    visibility: hidden;
+    display: none !important;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;    
+    appearance: none;         
+    background: transparent;  
+  }
+  .title {
+    position: absolute !important;
+  }
+  .logo {
+    top: 40px !important;
+    transform: translateX(-100%) !important;
+  }
+  .logo img {
+    height: 50px !important;
+  }
+
+  .select-container {
+    transform: translateX(50%);
+  }
+
+  .header {
+    display: flex !important;
+  }
+
+  select.open-select {
+    top: 70px;
+    width: 100px;
+    padding: 24px;
+    background: url('./media/planet.png') no-repeat center center;
+    background-size: 50px 50px;
+    background-color: transparent;
+    font-size: 0; /* Скрываем текст */
+  }
+  option {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+
+  .interactive-board {
+    position: relative !important;
+    padding-top: 50px !important;
+  }
+
+  .board-image {
+    position: relative !important;
+    padding-left: 0px !important;
+    width: 700px !important;
+    height: auto !important;
+    max-height: 600px !important;
+  }
+
+  .info-title {
+    font-size: 18px !important;
+  }
+  
+  body {
+    height: 45vh !important;
+    background-size: auto !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+
+  .main-title {
+    font-size: 34px !important;
+    margin-top: 20px !important;
+  }
+
+  
+
+  .dual-system {
+    padding-top: 80px !important;
+  }
+
+  .overlay {
+    height: 27% !important;
+  }
+
+  .round-image {
+    width: 195px;
+    height: 215px;    
+  }
+
+  .space-wrapper-right {
+    position: relative !important;
+    left: -50px !important;
+  }
+
+  .content-rich-interfaces {
+    font-size: 14px !important;
+    gap: 10px !important;
+    width: 20% !important;
+  }
+
+  .left-text {
+    width: 100% !important;
+    position: relative !important;
+    right: -30px !important;
+    top: -100px !important;
+    padding-right: 0px !important;
+  }
+  .right-text {
+    width: 100% !important;
+    position: relative !important;
+    left: -80px !important;
+    top: -180px !important;
+  }
+  .dual-system {
+    width: 100% !important;
+  }
+
+  .android-color-parms {
+    white-space: nowrap !important;
+  }
+
+  .os-win-title {
+    white-space: nowrap !important;
+  }
+
+  .dual-system-content {
+    width: 100% !important;
+    z-index: 1;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./media/android_elips.png') no-repeat center center;
+    background-size: auto !important;
+}
+
+  .dual-system-title {
+    font-size: 40px !important;
+  }
+  
+  .title-android-info {
+    font-size: 1.4em !important;
+  }
+  h2.info-dual-system {
+    font-size: 1.4em !important;
+  }
+  span.info-dual-system {
+    font-size: 0.8em !important;
+  }
+
+  .whiteboard {
+    width: 100% !important;
+    margin-top: 0px !important;
+    background-size: contain !important;
+    padding: 0px 0px !important;
+  }
+
+  .whiteboard-title {
+    font-size: 30px !important;
+  }
+  .features-image {
+    visibility: hidden !important;
+    display: none !important;
+  }
+  
+  .features-list li {
+    font-size: 24px !important;
+    margin-top: -10px !important;
+  }
+
+  .features-list li::before {
+    margin-top: -5px;
+  }
+
+  .features-list {
+    width: 90% !important;
+    position: relative !important;
+    left: 50px !important;
+    max-width: 400px;
+  }
+
+  .uhd-display-title {
+    font-size: 50px !important;
+    top: 0px !important;
+  }
+
+  .background {
+    height: 24% !important;
+  }
+
+  .monitor-container {
+    align-content: center !important;
+    justify-content: center !important;
+    top: 15% !important;
+    left: 50% !important;
+  }
+  .monitor {
+    width: 600px !important; 
+  }
+  .text-info-display {
+    width: 70% !important;
+    position: relative !important;
+    font-size: 24px !important; 
+    left: -290px !important;
+    top: -30px !important;
+  }
+
+  .specs-right {
+    position: relative !important;
+    left: 260px !important;
+    width: -10% !important;
+    margin-left: -180px !important;
+  }
+
+
+  .specs-left {
+    width: 23% !important;
+  }
+  .specs-wrapper-middle {
+    left: 140px !important;
+  }
+
+  .circle-media-div {
+    position: relative;
+    margin-top: -50px;
+  }
+  .specs-right-middle {
+    position: relative !important;
+    left: 100px !important;
+    width: 40% !important; 
+    margin-left: -175px;
+    white-space: nowrap;
+  }
+
+  .left-section {
+    max-width: 600px !important;
+    left: 340px !important;
+    top: -100px;
+  }
+
+  .image-left {
+    width: 600px !important;
+  }
+  .image-right {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  .right-section {
+    width: 100% !important;
+    left: 200px !important;
+  }
+  .title-rich {
+    position: relative;
+    font-size: 60px !important;
+    left: 0% !important;
+    white-space: nowrap;
+  }
+
+  .image-circle {
+    width: max-content !important;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+  }
+
+  .rich-interfaces {
+    position: relative !important;
+    padding: 0 !important;
+    margin-top: -0% !important;
+  }
+
+  .circle-media-div {
+    position: relative !important;
+    left: -50px !important;
+    top: -15% !important;
+  }
+
+  .screen {
+    width: 90% !important;
+    height: 45% !important;
+  }
+
+  .sizes-mon {
+    top: 140px !important;
+  }
+
+  .sizes-title {
+    top: -1% !important;
+    left: 315px;
+  }
+
+  .back-down {
+    background-size: 100vw 1200px !important;
+    top: 100% !important;
+  }
+
+  .scenarios-for {
+    margin-top: 520px !important;
+  }
+
+  .title-scenarios {
+    font-size: 46px !important;
+    margin-left: 0px !important;
+    top: -300px !important;
+  }
+
+  .education-stick {
+    margin-left: 20px !important;
+  } 
+}
+
 
 @media screen and (min-width: 869px) and (max-width: 1199px) {
   .stripe {
     position: relative;
     top: 0px;
-    width: 50vh; /* 70% ширины экрана */
+    width: 30vh !important;
     height: 3px; /* Толщина полоски */
     background-color: #4d4d4d; /* Цвет полоски */
     margin: 24px auto; /* Центровка полоски */
   }
   
   .board-image {
-    margin-top: 24px;
-    margin-left: 60px;
-    width: 900px !important;
+    margin-top: 40px !important;
+    margin-left: 20px !important;
+    width: 800px !important;
     height: auto !important;
-    max-height: 600px !important;
+    max-height: 500px !important;
   }
   
   body {
-    height: 80vh;
-    background-size: 1200px !important;
+    height: 50vh;
+    background-size: auto !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
   }
 
   .main-title {
@@ -456,139 +1677,273 @@
 
   .image-container-android {
     top: -70px;
-    right: -50px !important;
+    right: -11% !important;
     filter: none;
     z-index: 3;
   }
 
   .dual-system {
-    padding-top: 60px !important;
+    padding-top: 80px !important;
   }
 
-  .os-win-title {
-    top: 20px;
-    font-size: 1.4em !important;
+  .overlay {
+    height: 35% !important;
   }
 
-  .os-win-info {
+  .round-image {
+    width: 195px;
+    height: 215px;    
+  }
+
+  .space-wrapper-right {
     position: relative !important;
-    top: 10px !important;
-  }
-  .android-color-parms .header-os {
-    position: relative !important;
-    top: 10px !important;
-    font-size: 1.4em !important;
-  }
-
-  .android-title {
-    position: relative;
     left: 0px !important;
-    font-size: 2.0em !important;
-    color: #f8943b;
-    white-space: nowrap;
+  }
+
+  .content-rich-interfaces {
+    font-size: 14px !important;
+    gap: 10px !important;
+    width: 20% !important;
   }
 
   .left-text {
+    width: 100% !important;
     position: relative !important;
-    left: 80px !important;
-    top: -20px !important;
+    right: -30px !important;
+    top: -100px !important;
+    padding-right: 0px !important;
+  }
+  .right-text {
+    width: 100% !important;
+    position: relative !important;
+    left: -80px !important;
+    top: -180px !important;
+  }
+  .dual-system {
+    width: 100% !important;
   }
 
+  .android-color-parms {
+    white-space: nowrap !important;
+  }
+
+  .os-win-title {
+    white-space: nowrap !important;
+  }
+
+  .dual-system-content {
+    width: 100% !important;
+    z-index: 1;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./media/android_elips.png') no-repeat center center;
+    background-size: auto !important;
+    padding-left: 9%;
+}
+
+  .dual-system-title {
+    font-size: 40px !important;
+  }
+  
   .title-android-info {
     font-size: 1.4em !important;
   }
-
-  .info-dual-system {
+  h2.info-dual-system {
     font-size: 1.4em !important;
+  }
+  span.info-dual-system {
+    font-size: 0.8em !important;
   }
 
   .whiteboard {
-    padding-top: -20px !important;
-    background-image: url(./media/whiteboard_picture.png) no-repeat;
-    background-position: right;
-    background-size: 450px !important;
+    width: 100% !important;
+    margin-top: 0px !important;
+    background-size: contain !important;
+    padding: 0px 0px !important;
   }
 
   .whiteboard-title {
     font-size: 30px !important;
   }
+  .features-image {
+    visibility: hidden !important;
+    display: none !important;
+  }
   
   .features-list li {
-    font-size: 22px !important;
-    margin-top: 20px !important;
+    font-size: 24px !important;
+    margin-top: -10px !important;
+  }
+
+  .features-list li::before {
+    margin-top: -5px;
   }
 
   .features-list {
+    width: 90% !important;
     position: relative !important;
-    left: -30px !important;
+    left: 50px !important;
+    max-width: 400px;
   }
+
   .uhd-display-title {
     font-size: 50px !important;
     top: 0px !important;
   }
 
   .background {
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    height: 40%;
+    height: 30% !important;
   }
 
   .monitor-container {
-    top: 20% !important;
-    left: 570px !important;
+    align-content: center !important;
+    justify-content: center !important;
+    top: 17.9% !important;
+    left: 50% !important;
   }
   .monitor {
-    width: 1000px !important; 
+    width: 800px !important; 
   }
   .text-info-display {
+    width: 70% !important;
+    position: relative !important;
     font-size: 24px !important; 
+    left: -230px !important;
+    top: -30px !important;
   }
 
+  .specs-right {
+    position: relative !important;
+    left: 260px !important;
+    width: -10% !important;
+    margin-left: -180px !important;
+  }
+
+
+  .specs-left {
+    width: 23% !important;
+  }
+  .specs-wrapper-middle {
+    left: 140px !important;
+  }
+
+  .specs-right-middle {
+    position: relative !important;
+    left: 100px !important;
+    width: 40% !important; 
+    margin-left: -175px;
+    white-space: nowrap;
+  }
+
+  .left-section {
+    max-width: 700px !important;
+    left: 170% !important;
+    top: -100px;
+  }
+
+  .image-left {
+    width: 840px !important;
+  }
+  .image-right {
+    width: 500px !important;
+    height: 500px !important;
+  }
   .right-section {
-    left: 20px !important;
+    width: 100% !important;
+    left: 125% !important;
+    margin-top: -20px !important;
   }
   .title-rich {
-    margin-left: 220px !important;
+    position: relative;
+    font-size: 60px !important;
+    left: 0% !important;
+    white-space: nowrap;
+  }
+
+  .image-circle {
+    width: max-content !important;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    overflow: visible !important;
+  }
+
+  .rich-interfaces {
+    position: relative !important;
+    padding: 0 !important;
+    margin-top: -0% !important;
+    z-index: 1;
+  }
+
+  .circle-media-div {
+    position: relative !important;
+    left: -20px !important;
+    margin-top: 20%;
   }
 
   .screen {
     width: 90% !important;
-    height: 70% !important;
+    height: 80% !important;
+  }
+
+  .sizes-mon {
+    top: 0px !important;
+    margin-top: 0%;
   }
 
   .sizes-title {
-    top: 140px !important;
-    right: 50px !important;
+    top: 80px !important;
+    right: 25px !important;
   }
 
   .back-down {
-    height: 1000px !important;
-    width: 1300px !important;
-    top: 900px !important;
+    background-size: 100vw 1200px !important;
+    top: 500px !important;
+  }
+
+  .scenarios-for {
+    margin-top: 520px !important;
   }
 
   .title-scenarios {
-    font-size: 46px !important;
-    margin-left: 40px !important;
+    font-size: 75px !important;
+    margin-left: 0px !important;
+    top: -300px !important;
   }
 
   .office {
     position: relative;
-    margin-left: 900px !important;
-    top: -150px !important;
+    margin-left: 1% !important;
+    top: 40px !important;
   }
 
   .education {
     position: relative;
-    margin-left: 330px !important;
-    top: 30px !important;
+    margin-left: 10% !important;
+    top: 70px !important;
   }
 
-  .images-container {
-    left: 200px !important;
+
+  .office-image {
+    position: relative;
+    width: 350px !important;
+    height: 225px !important;
+    bottom: 0px !important;
+    right: -270px !important;
   }
+
+  .education-image {
+    position: relative;
+    width: 350px !important;
+    height: 225px !important;
+    bottom: -180px !important;
+    left: 70px !important;
+  }
+
+  .education-stick {
+    margin-left: 20px !important;
+  } 
 }
+
+
+
 
 @media screen and (min-width: 1200px) and (max-width: 1320px) {
   .stripe {
@@ -599,15 +1954,340 @@
     background-color: #4d4d4d; /* Цвет полоски */
     margin: 24px auto; /* Центровка полоски */
   }
+
+  .left-text {
+    padding-right: 30px !important;
+    left: 35px;
+  }
+
+  .image-container-android {
+    right: -140px !important;
+  }
+
+  .round-image {
+    height: 235px !important;
+  }
+
+  .right-text {
+    top: -120px !important;
+    right: 50px !important;
+  }
+
+  .monitor {
+    width: 1100px !important;
+  }
+
+  .monitor-container {
+    top: 27% !important;
+    left: 50% !important;
+  }
+
+  .text-info-display {
+    width: 70% !important;
+    position: relative !important;
+    font-size: 30px !important; 
+    left: -200px !important;
+    top: -15px !important;
+  }
+
+  .title-rich {
+    position: relative;
+    font-size: 60px !important;
+    left: 0% !important;
+    white-space: nowrap;
+  }
+  .rich-interfaces {
+    margin-top: 0% !important;
+    position: relative;
+    z-index: 1
+  }
+
+  .right-section {
+    right: 0px !important;
+  }
+
+  .screen {
+    width: 90% !important;
+    height: 90% !important;
+  }
+
+  .sizes-mon {
+    top: 0px !important;
+    margin-top: 0%;
+  }
+
+  .sizes-title {
+    right: 35px !important;
+    top: 50px !important;
+  }
+
+  .back-down {
+    background-size: 100vw 1200px !important;
+    top: 1050px !important;
+  }
+
+  .scenarios-for {
+    margin-top: 520px !important;
+  }
+
+  .title-scenarios {
+    font-size: 75px !important;
+    margin-left: -6% !important;
+    top: 80px !important;
+  }
+
+  .office {
+    position: relative;
+    margin-left: 12% !important;
+    top: 40px !important;
+  }
+
+  .education {
+    position: relative;
+    margin-left: 27% !important;
+    top: 140px !important;
+  }
+
+
+  .office-image {
+    position: relative;
+    width: 450px !important;
+    height: 280px !important;
+    bottom: 0px !important;
+    right: -270px !important;
+  }
+
+  .education-image {
+    position: relative;
+    width: 450px !important;
+    height: 280px !important;
+    bottom: -180px !important;
+    left: 70px !important;
+  }
+
+  .education-stick {
+    margin-left: 20px !important;
+  } 
 }
 
-@media screen and (min-width: 1366px) and (max-width: 1600px) {
+@media screen and (min-width: 1322px) and (max-width: 1600px) {
   .stripe {
     position: relative;
     top: 0px;
-    width: 80vh; /* 70% ширины экрана */
+    width: 60vh; /* 70% ширины экрана */
     height: 3px; /* Толщина полоски */
     background-color: #4d4d4d; /* Цвет полоски */
     margin: 24px auto; /* Центровка полоски */
   }
+
+  .left-text {
+    padding-right: 30px !important;
+    left: 60px;
+  }
+
+  .image-container-android {
+    right: -140px !important;
+  }
+
+  .round-image {
+    height: 235px !important;
+  }
+
+  .right-text {
+    top: -120px !important;
+    right: 50px !important;
+  }
+
+  .monitor {
+    width: 1300px !important;
+  }
+
+  .monitor-container {
+    top: 27% !important;
+    left: 50% !important;
+  }
+
+  .text-info-display {
+    width: 70% !important;
+    position: relative !important;
+    font-size: 30px !important; 
+    left: -180px !important;
+    top: -0px !important;
+  }
+
+  .title-rich {
+    position: relative;
+    font-size: 60px !important;
+    left: 0% !important;
+    white-space: nowrap;
+  }
+  .rich-interfaces {
+    margin-top: 0% !important;
+    position: relative;
+    z-index: 1
+  }
+
+  .right-section {
+    right: 0px !important;
+  }
+
+  .screen {
+    width: 90% !important;
+    height: 100% !important;
+  }
+
+  .sizes-mon {
+    top: 0px !important;
+    margin-top: 0%;
+  }
+
+  .sizes-title {
+    right: 35px !important;
+    top: 50px !important;
+  }
+
+  .back-down {
+    background-size: 100vw 1200px !important;
+    top: 1050px !important;
+  }
+
+  .scenarios-for {
+    margin-top: 520px !important;
+  }
+
+  .title-scenarios {
+    font-size: 75px !important;
+    margin-left: 0px !important;
+    top: 80px !important;
+  }
+
+  .office {
+    position: relative;
+    margin-left: 21% !important;
+    top: 40px !important;
+  }
+
+  .education {
+    position: relative;
+    margin-left: 35% !important;
+    top: 140px !important;
+  }
+
+
+  .office-image {
+    position: relative;
+    width: 450px !important;
+    height: 280px !important;
+    bottom: 0px !important;
+    right: -270px !important;
+  }
+
+  .education-image {
+    position: relative;
+    width: 450px !important;
+    height: 280px !important;
+    bottom: -180px !important;
+    left: 70px !important;
+  }
+
+  .education-stick {
+    margin-left: 20px !important;
+  } 
+}
+@media screen and (min-width: 1601px) and (max-width: 1900px) {
+  .monitor {
+    width: 1100px !important;
+  }
+
+  .monitor-container {
+    top: 27% !important;
+    left: 50% !important;
+  }
+
+  .text-info-display {
+    width: 70% !important;
+    position: relative !important;
+    font-size: 30px !important; 
+    left: -170px !important;
+    top: -15px !important;
+  }
+
+  .title-rich {
+    position: relative;
+    font-size: 60px !important;
+    left: 0% !important;
+    white-space: nowrap;
+  }
+  .rich-interfaces {
+    margin-top: 0% !important;
+    position: relative;
+    z-index: 1
+  }
+
+  .right-section {
+    right: 0px !important;
+  }
+
+  .screen {
+    width: 90% !important;
+    height: 100% !important;
+  }
+
+  .sizes-mon {
+    top: 0px !important;
+    margin-top: 0%;
+  }
+
+  .sizes-title {
+    right: 35px !important;
+    top: 50px !important;
+  }
+
+  .back-down {
+    background-size: 100vw 1200px !important;
+    top: 1050px !important;
+  }
+
+  .scenarios-for {
+    margin-top: 520px !important;
+  }
+
+  .title-scenarios {
+    font-size: 75px !important;
+    margin-left: 0px !important;
+    top: 80px !important;
+  }
+
+  .office {
+    position: relative;
+    margin-left: 460px !important;
+    top: 40px !important;
+  }
+
+  .education {
+    position: relative;
+    margin-left: 630px !important;
+    top: 140px !important;
+  }
+
+
+  .office-image {
+    position: relative;
+    width: 450px !important;
+    height: 280px !important;
+    bottom: 0px !important;
+    right: -270px !important;
+  }
+
+  .education-image {
+    position: relative;
+    width: 450px !important;
+    height: 280px !important;
+    bottom: -180px !important;
+    left: 70px !important;
+  }
+
+  .education-stick {
+    margin-left: 20px !important;
+  } 
 }
