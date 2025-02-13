@@ -10,7 +10,6 @@ body {
   justify-content: flex-start; /* Выравнивание сверху */
   align-items: center; /* Центровка содержимого */
   overflow-x: hidden !important;
-
 }
 
 
