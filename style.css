@@ -1,0 +1,1012 @@
+/* Общие стили */
+body {
+  background: url('background_top_side.png') no-repeat center center; 
+  background-color: black;
+  height: 75vh; /* Полная высота экрана */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column; /* Вертикальная ориентация */
+  justify-content: flex-start; /* Выравнивание сверху */
+  align-items: center; /* Центровка содержимого */
+  overflow-x: hidden !important;
+  max-height: 40vh;
+}
+
+
+
+.stripe {
+  flex-grow: 1;
+  top: 0px;
+  width: 70vh; /* 70% ширины экрана */
+  height: 3px; /* Толщина полоски */
+  background-color: #4d4d4d; /* Цвет полоски */
+  margin: 24px auto; /* Центровка полоски */
+  max-width: 1600px;
+}
+
+/* Логотип */
+.logo {
+  top: 50%; /* Расположение сверху */
+  z-index: 10; /* Логотип поверх других элементов */
+} 
+
+
+.strip-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 0px;
+  max-width: 100%;
+}
+
+
+.logo img {
+  height: 80px; /* Размер логотипа */
+  left: 20px;
+}
+
+/* Заголовок */
+.header {
+  position: relative;
+  width: 100%; /* Полная ширина */
+  text-align: center; /* Центровка текста */
+  margin-top: 25px; /* Отступ сверху */
+}
+
+/* Первая тема */
+
+.select-container {
+  padding-left: 20px;
+}
+
+select.open-select {
+  color: white;
+  right: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 0px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  background: rgb(11,37,125);
+  background: linear-gradient(90deg, rgba(11,37,125,1) 12%, rgba(18,60,218,1) 100%);
+}
+
+select.open-select:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+option {
+  color: black;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.flag-eng-ico {
+  width: 50px;
+  height: 10px;
+}
+
+.main-title-ru {
+  font-size: 46px;
+  font-weight: bold;
+  color: white; 
+  text-align: center;
+  margin-top: 60px; 
+}
+
+.main-title {
+  font-family: Afacad, sans-serif;
+  font-size: 80px; 
+  font-weight: bold;
+  color: white; 
+  text-align: center;
+  margin-top: 60px; 
+}
+
+.title {
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: white;
+  margin: 10px;
+  padding-bottom: 0px;
+}
+
+
+
+/* interactive-board */
+
+
+/* Картинка */
+.board-image {
+  margin-top: 24px;
+  width: 1100px;
+  height: auto;
+  max-height: 600px;
+}
+
+.monitor-title {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.info-blocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Три столбца */
+  gap: 20px; /* Расстояние между блоками */
+  margin-top: 90px;
+  justify-content: center; /* Центровка блоков */
+}
+
+/* Каждый блок */
+.info {
+  text-align: center;
+  padding: -10px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  background: none; /* Убираем серый фон */
+  position: relative;
+}
+
+/* Полоска над названием */
+.info::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 125px; /* Ширина полоски */
+  height: 2px; /* Толщина полоски */
+  opacity: 0.6;
+  background: rgb(173,186,31);
+  background: linear-gradient(90deg, rgba(173,186,31,1) 0%, rgba(112,166,22,1) 36%, rgba(4,170,86,1) 100%);
+}
+
+/* Название внутри блока */
+.info-title {
+  font-family: Newport Gothic Regular, sans-serif;
+  margin-top: 10px; /* Отступ под полоской */
+  font-size: 24px;/* Размер шрифта */
+}
+
+.info-title-ru {
+  display: inline;
+  position: relative;
+  font-family: Newport Gothic Regular, sans-serif;
+  margin-top: 10px; /* Отступ под полоской */
+  font-size: 24px;/* Размер шрифта */
+  flex-wrap: wrap;
+}
+
+/* Dual system block  */
+
+.android-title {
+  display: inline;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Для английской версии*/
+
+.android-color-parms-win {
+  font-family: "Darker Grotesque", sans-serif;
+  opacity: 0.7;
+  font-size: 24px;
+}
+.android-color-parms{
+  font-size: 1,9em;
+  color: grey;
+  padding: 0px;
+}
+
+.os-info-params {
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Для русской версии */
+
+.android-color-parms-win-ru {
+  font-family: "Newport Gothic Regular", sans-serif;
+  opacity: 0.7;
+  font-size: 24px;
+}
+.android-color-parms-ru {
+  font-size: 1.4em;
+  color: grey;
+  padding: 0px;
+}
+
+.os-info-params-ru {
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+}
+
+.title-android-info {
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.title-android-info-ru {
+  font-family: "Newport Gothic Regular", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.android-color-parms-win-ru {
+  font-family: "Newport Gothic Regular", sans-serif;
+  opacity: 0.7;
+  font-size: 22px;
+}
+
+.dual-system-img {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  width: 100%;
+  height: auto;
+  top: 0px;
+  z-index: 3;
+}
+/* title */
+.dual-system-title {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: -20px;
+  z-index: 10;
+}
+
+/* Контейнер с контентом */
+.dual-system-content {
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./media/android_elips.png') no-repeat center center;
+    background-size: 1700px auto;
+}
+
+/* Левый текст и правый для английской версии*/
+.left-text, .right-text {
+    font-family: "Darker Grotesque", sans-serif;
+    width: 25%;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    opacity: 0.8;
+}
+
+
+
+.left-text {
+  position: relative;
+  margin-top: 40px;
+  z-index: 10;
+  left: 15%;
+}
+
+.right-text {
+    position: relative;
+    text-align: left;
+    right: 100px;
+    top: -100px;
+    padding-left: 200px;
+}
+
+/* Правый и левый текст для русского языка */
+
+.left-text-ru, .right-text-ru {
+    font-family: "Newport Gothic Regular", sans-serif;
+    width: 25%;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    opacity: 0.8;
+}
+
+.left-text-ru {
+  position: relative;
+  margin-top: 40px;
+  z-index: 10;
+  padding-right: 0%;
+  left: 10%;
+}
+
+.right-text-ru {
+    position: relative;
+    text-align: left;
+    top: -110px;
+    padding-left: 200px;
+}
+
+/* Изображение */
+.image-container-android {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    top: -70px;
+    right: -11%;
+    filter: none;
+    z-index: 3;
+}
+
+
+.image-container-android-ru {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    top: -70px;
+    right: 0%;
+    filter: none;
+    z-index: 3;
+}
+
+.info-dual-system-ru {
+  font-size: 22px;
+}
+
+.round-image {
+  width: 215px;
+  height: 215px;  
+}
+
+
+/* Заголовки */
+
+.header-os {
+  font-weight: bold;
+}
+
+.header-os-ru {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.os-win-title {
+  position: relative;
+  margin-top: -60px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.os-win-title-ru {
+  position: relative;
+  margin-top: -45px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/*Английская версия*/
+
+div.os-win-info {
+  font-family: "Darker Grotesque", sans-serif;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-size: 24px;
+}
+
+div.info-dual-system {
+  font-size: 26px;
+  position: relative;
+  opacity: 0.9;
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+
+h2.info-dual-system {
+  position: relative;
+  font-size: 2.7em;
+  color: #f8943b;
+  white-space: nowrap;
+}
+
+h3.info-dual-system {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p.info-dual-system {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+div.info-dual-system {
+    white-space: nowrap;
+}
+
+/* Русская версия */
+
+div.os-win-info-ru {
+  font-family: "Newport Gothic Regular", sans-serif;
+  margin-top: -10px;
+  margin-bottom: -0px;
+}
+
+div.info-dual-system-ru {
+  font-size: 18px;
+  position: relative;
+  opacity: 0.9;
+  margin-bottom: -8px;
+  margin-top: -8px;
+}
+
+h2.info-dual-system-ru {
+  position: relative;
+  font-size: 2.7em;
+  color: #f8943b;
+  white-space: nowrap;
+}
+
+h3.info-dual-system-ru {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p.info-dual-system-ru {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+div.info-dual-system-ru {
+    white-space: nowrap;
+}
+
+/* Whiteboard Functions */
+
+.whiteboard-title {
+  padding-bottom: 150px;
+  white-space: nowrap;
+}
+
+.whiteboard {
+  background-color: #000000;
+  padding: 50px 34%;
+  color: #ffffff;
+  text-align: left;
+  background: url(./media/whiteboard_picture.png) no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+
+.features-title {
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.features-container {
+  position: relative;
+  top: -100px;
+  display: flex;
+  align-items: center; /* Центрирует элементы по вертикали */
+  justify-content: flex-start; /* Прижимает содержимое к левому краю */
+  gap: 20px; /* Пространство между картинкой и списком */
+  padding: 0; /* Убираем внутренние отступы */
+}
+
+.features-image img {
+  top: 200px;
+  max-width: 300px; /* Устанавливаем фиксированную ширину картинки */
+  height: auto;
+  border-radius: 0px; /* Скругленные углы */
+  margin-left: -380px; /* Смещаем картинку влево (уменьшите или увеличьте значение) */
+}
+
+.features-list {
+  text-align: left;
+  flex: 1;
+}
+
+.features-list ul {
+  list-style-type: none;
+  padding: 1px;
+  margin: 0;
+}
+
+.features-list-ru {
+  text-align: left;
+  flex: 1;
+}
+
+.features-list-ru ul {
+  list-style-type: none;
+  padding: 1px;
+  margin: 0;
+}
+
+.features-list li {
+  font-family: "Darker Grotesque", sans-serif;
+  padding-top: 0px;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.features-list-ru li {
+  font-family: "Newport Gothic Regular", sans-serif;
+  padding-top: 0px;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.features-list li::before {
+  content: url(./media/arrow.png);
+  display: inline;
+  width: 12px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  color: #ff8c00;
+  font-size: 30px;
+}
+
+.features-list-ru li::before {
+  content: url(./media/arrow.png);
+  display: inline;
+  width: 12px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  color: #ff8c00;
+  font-size: 24px;
+}
+
+
+/* 4K UHD Display */
+.uhd-display-title {
+  font-family: Afacad, sans-serif;
+  margin-bottom: -30px;
+  position: relative;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 4px 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.uhd-display-title-ru {
+  font-family: Newport Gothic Regular, sans-serif;
+  margin-bottom: -30px;
+  position: relative;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 4px 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.uhd-display {
+  position: relative;
+  width: 100%;
+  max-width: 1920px; 
+  height: 1900px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
+}
+
+.background {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: 40%;
+}
+
+.monitor-container {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.monitor-container-ru {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.monitor {
+  padding-top: 140px;
+  width: 1400px; /* Настройте размер монитора */
+  max-width: 1200px;
+  height: auto;
+  display: block;
+  z-index: 3;
+}
+
+
+.text-info-display {
+  font-family: "Darker Grotesque", sans-serif;
+  padding: -30px;
+  font-size: 34px;
+  line-height: 1.6;
+  font-weight: normal;
+  opacity: 0.8;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  color: white; 
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 400px;
+  margin-right: 400px; 
+}
+
+.text-info-display-ru {
+  font-family: "Newport Gothic Regular", sans-serif;
+  font-size: 24px;
+  line-height: 1.6;
+  opacity: 0.5;
+  z-index: 1;
+  position: absolute;
+  color: white; 
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 15%;
+  width: 70%;
+}
+
+/* Rich Interfaces */
+
+.rich-interfaces {
+  text-align: center;
+  padding: 20px;
+  margin-top: 15%;
+}
+
+.title-rich-ru {
+  font-family: Newport Gothic Regular, sans-serif;
+  font-size: 3.8rem;
+  font-weight: bold;
+  margin-bottom: 80px;
+  margin-left: 140px;
+  color: white;
+  padding-top: 200px !important;
+}
+
+.title-rich {
+  font-family: Afacad, sans-serif;
+  font-size: 60px;
+  margin-bottom: 80px;
+  margin-left: 0px;
+}
+
+.content-rich-interfaces {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.left-section {
+  position: relative;
+  margin-top: 80px;
+}
+
+.right-section {
+  position: relative;
+  margin-top: -50px;
+  right: 100px;
+}
+
+.left-section, .right-section {
+  max-width: 1800px;
+  text-align: left;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.image-left {
+  width: 900px;
+}
+
+.image-left, .image-right {
+  height: auto;
+  display: block;
+}
+
+.image-circle {
+  overflow: hidden;
+  width: 450px;
+  height: 450px;
+  margin: 0 auto 20px auto;
+}
+
+.image-right {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.space-wrapper-right {
+  position: relative;
+  margin-left: 60px;
+}
+
+.specs-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.specs-wrapper-middle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.specs-left {
+  color: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 24%; /* Чтобы два списка располагались рядом */
+}
+.specs-right {
+  color: white;
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+  width: 33,5%; /* Чтобы два списка располагались рядом */
+}
+
+.specs-right-middle {
+  color: white;
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+  width: 35%; /* Чтобы два списка располагались рядом */
+}
+
+.specs-left li, .specs-right li, .specs-right-middle li {
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.specs-left li::before, .specs-right li::before, .specs-right-middle li::before {
+  content: url('./media/arrow.png');
+  color: yellow;
+  margin-right: 3px;
+  margin-top: 5px;
+}
+
+/* Sizes */
+
+.sizes-mon {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  margin: 0;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.sizes-title {
+  font-family: Afacad, sans-serif;
+  position: absolute;
+  top: 260px;
+  right: 240px;
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.sizes-title-ru {
+  font-family: Newport Gothic Regular, sans-serif;
+  position: absolute;
+  top: 160px;
+  right: 5%;
+  font-size: 3.8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+.screen img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Scenarios for Office and Education  */
+.back-down {
+  position: relative;
+  background: url('./media/points_back.png') no-repeat center center;
+  height: 1000px;
+  width: 100%;
+  top: 1000px;
+  object-fit: scale-down;
+  object-fit: cover;
+  max-width: 1920px;
+}
+
+.back-down-ru {
+  position: relative;
+  background: url('./media/points_back.png') no-repeat center center;
+  height: 1000px;
+  width: 100%;
+  top: 800px;
+  object-fit: scale-down;
+  object-fit: cover;
+}
+
+.scenario {
+  font-family: Afacad, sans-serif;
+  position: relative;
+  margin-left: 70px;
+}
+
+.scenario-ru {
+  font-family: Newport Gothic Regular, sans-serif;
+  position: relative;
+  margin-left: 70px;
+}
+
+.title-scenarios {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  bottom: 30px;
+  margin-left: 140px;
+}
+
+.title-scenarios-ru {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  bottom: 30px;
+  margin-left: 140px;
+}
+
+.scenarios-for {
+  width: 100%;
+  height: 300px;
+  margin-top: 600px;
+}
+
+.images-container{
+  position: relative;
+  top: -300px;
+  display: block;
+  float: right;
+  padding-right: 100px;
+}
+
+.office-image {
+  position: relative;
+  width: 450px;
+  height: 300px;
+  border: solid 10px;
+  border-color: white;
+  z-index: 1;
+  bottom: 150px;
+}
+.education-image {
+  position: relative;
+  width: 450px;
+  height: 300px;
+  border: solid 10px;
+  border-color: white;
+  z-index: 2;
+  bottom: -100px;
+  left: -190px;
+}
+
+.photo-title {
+  font-size: 50px;
+  color: #FEA613;
+  font-weight: bold;
+}
+
+.education-title {
+  font-size: 50px;
+  color: #3AA8FD;
+  font-weight: bold;
+}
+
+.photo-title-ru {
+  font-size: 40px;
+  color: #FEA613;
+  font-weight: bold;
+}
+
+.education-title-ru {
+  font-size: 40px;
+  color: #3AA8FD;
+  font-weight: bold;
+}
+
+.office-case {
+  position: relative;
+  top: 10px;
+  width: 50px;
+  height: 50px;
+  transform: rotate(-13.08deg);
+  padding-left: 20px;
+}
+
+
+.office {
+  position: relative;
+  margin-left: 520px;
+  top: -160px;
+}
+
+.office-ru {
+  position: relative;
+  margin-left: 510px;
+  top: -160px;
+}
+
+.education {
+  position: relative;
+  margin-left: 710px;
+  top: 20px;
+}
+
+.education-ru {
+  position: relative;
+  margin-left: 720px;
+  top: 20px;
+}
+
+.education-stick {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  margin-left: 30px;
+  top: 10px;
+}
+
+.education-stick-ru {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+  top: 10px;
+}
+
+/* Для разных размеров */

@@ -1,0 +1,2635 @@
+@media screen and (min-width: 321px) and (max-width: 399px) {
+  .monitor {
+    width: 280px !important; 
+  }
+  .background {
+    height: 13% !important;
+  }
+
+  .image-left {
+    width: 300px !important;
+  }
+
+  .left-section {
+    left: 200% !important;
+  }
+
+  .image-right {
+    width: 225px !important;
+    height: 225px !important;
+  }
+  .right-section {
+    left: 200% !important;
+  }
+  .circle-media-div {
+    position: relative !important;
+    left: -45% !important;
+    top: -240px !important;
+    display: flex;
+  }
+
+  .monitor-container {
+    top: 7% !important;
+  }
+
+  .monitor-container-ru {
+    top: 7% !important;
+  }
+
+  .background {
+    height: 11% !important;
+  }
+  .sizes-mon {
+    top: -400px !important;
+  }
+
+  .office-image {
+    width: 225px !important;
+    height: 140px !important;
+  }
+  .education-image {
+    width: 225px !important;
+    height: 140px !important;
+    left: 0 !important;
+    bottom: 0 !important;
+  }
+
+  .specs-wrapper-middle {
+    left: 75px !important;
+    width: 120%;
+  }
+
+  .images-container {
+    top: -150px !important;
+  }
+
+  .back-down {
+    background-size: 100vw 1200px !important;
+    top: -440px !important;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+  .monitor {
+    width: 380px !important; 
+  }
+  .background {
+    height: 15% !important;
+  }
+
+  .left-section {
+    max-width: 400px !important;
+    left: 200% !important;
+  }
+
+  .image-left {
+    width: 400px !important;
+  }
+  .image-right {
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .circle-media-div {
+    position: relative;
+    margin-top: -130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .right-section {
+    width: 100% !important;
+    left: 50% !important;
+  }
+
+  .sizes-mon {
+    top: -155px !important;
+  }
+
+  .monitor-container {
+    align-content: center !important;
+    justify-content: center !important;
+    top: 9% !important;
+    left: 50% !important;
+  }
+
+  .monitor-container-ru {
+    top: 9% !important;
+  }
+
+  .office-image {
+    position: relative;
+    width: 325px !important;
+    height: 190px !important;
+    bottom: 0px !important;
+    right: 0 !important;
+  }
+
+  .education-image {
+    position: relative;
+    width: 325px !important;
+    height: 190px !important;
+    bottom: -100px !important;
+    left: 0 !important;
+  }
+
+  .back-down {
+    background-size: 100vw 1200px !important;
+    top: -300px !important;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 499px) {
+
+  .title {
+    position: absolute !important;
+  }
+  .logo {
+    top: 40px !important;
+    transform: translateX(-100%) !important;
+  }
+  .logo img {
+    height: 50px !important;
+  }
+
+  .select-container {
+    transform: translateX(50%);
+  }
+
+  .header {
+    display: flex !important;
+  }
+  .top-info {
+    max-width: 100%;
+  }
+  .stripe {
+    visibility: hidden;
+    display: none !important;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;    
+    appearance: none;         
+    background: transparent;  
+  }
+
+  select.open-select {
+    top: 70px;
+    width: 100px;
+    padding: 24px;
+    background: url('./media/planet.png') no-repeat center center;
+    background-size: 50px 50px;
+    background-color: transparent;
+    font-size: 0; /* Скрываем текст */
+  }
+  option {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+
+  .interactive-board {
+    position: relative !important;
+    padding-top: 50px !important;
+  }
+
+  .board-image {
+    width: 300px !important;
+    height: auto !important;
+    max-height: 400px !important;
+  }
+
+  .info-title {
+    font-size: 18px !important;
+  }
+  
+  body {
+    height: 50vh !important;
+    background-size: 60vh !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  /* Для русской версии */
+
+  .main-title-ru {
+    font-size: 20px !important;
+  }
+
+  .android-color-parms-win-ru {
+    font-family: "Newport Gothic Regular", sans-serif;
+    opacity: 0.7;
+    font-size: 24px;
+  }
+  .android-color-parms-ru {
+    font-size: 1.4em;
+    color: grey;
+    padding: 0px;
+  }
+
+  .os-info-params-ru {
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .title-android-info-ru {
+    font-family: "Newport Gothic Regular", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    white-space: nowrap !important;
+  }
+
+  .android-color-parms-win-ru {
+    font-family: "Newport Gothic Regular", sans-serif;
+    opacity: 0.7;
+    font-size: 22px;
+    white-space: nowrap !important;
+  }
+
+  .left-text-ru, .right-text-ru {
+    font-family: "Newport Gothic Regular", sans-serif;
+    width: 25%;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    opacity: 0.8;
+  }
+
+  .left-text-ru {
+    position: relative;
+    margin-top: 40px;
+    z-index: 10;
+    padding-right: 200px;
+  }
+
+  .right-text-ru {
+    position: relative;
+    text-align: left;
+    right: 100px;
+    top: -70px;
+    padding-left: 200px;
+  }
+
+  .info-dual-system-ru {
+    font-size: 22px;
+  }
+
+  .header-os-ru {
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+
+  div.os-win-info-ru {
+    font-family: "Newport Gothic Regular", sans-serif;
+    margin-top: -10px;
+    margin-bottom: -0px;
+  }
+
+  div.info-dual-system-ru {
+    font-size: 18px;
+    position: relative;
+    opacity: 0.9;
+    margin-bottom: -8px;
+    margin-top: -8px;
+  }
+
+  h2.info-dual-system-ru {
+    position: relative;
+    font-size: 2.7em;
+    color: #f8943b;
+    white-space: nowrap;
+  }
+
+  h3.info-dual-system-ru {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  p.info-dual-system-ru {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+
+  div.info-dual-system-ru {
+    white-space: nowrap;
+  }
+
+  .features-list-ru {
+    text-align: left;
+    flex: 1;
+  }
+
+  .features-list-ru ul {
+    list-style-type: none;
+    padding: 1px;
+    margin: 0;
+  }
+
+  .features-list-ru li {
+    font-family: "Newport Gothic Regular", sans-serif;
+    padding-top: 0px;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    position: relative;
+  }
+
+  .features-list-ru li::before {
+    content: url(./media/arrow.png);
+    display: inline;
+    width: 12px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    color: #ff8c00;
+    font-size: 24px;
+  }
+
+  .uhd-display-title-ru {
+    font-family: Newport Gothic Regular, sans-serif;
+    margin-bottom: -25px;
+    position: relative;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 4px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 2;   
+  }
+
+  .text-info-display-ru {
+    font-family: "Newport Gothic Regular", sans-serif;
+    padding: -30px;
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: normal;
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    color: white; 
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 400px;
+    margin-right: 400px; 
+  }
+
+  .title-rich-ru {
+    font-family: Newport Gothic Regular, sans-serif;
+    font-size: 3.8rem;
+    font-weight: bold;
+    margin-bottom: 80px;
+    margin-left: 140px;
+    color: white;
+  }
+
+
+  .sizes-title-ru {
+    font-family: Newport Gothic Regular, sans-serif;
+    position: absolute;
+    top: 160px;
+    right: 160px;
+    font-size: 3.8rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .back-down-ru {
+    position: relative;
+    background: url('./media/points_back.png') no-repeat center center;
+    height: 1000px;
+    width: 100%;
+    top: 500px;
+    object-fit: scale-down;
+    object-fit: cover;
+  }
+
+  .scenario-ru {
+    font-family: Newport Gothic Regular, sans-serif;
+    position: relative;
+    margin-left: 70px;
+  }
+
+  .title-scenarios-ru {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    bottom: 30px;
+    margin-left: 140px;
+  }
+
+  .photo-title-ru {
+    font-size: 40px;
+    color: #FEA613;
+    font-weight: bold;
+  }
+
+  .education-title-ru {
+    font-size: 40px;
+    color: #3AA8FD;
+    font-weight: bold;
+  }
+
+  .office-ru {
+    position: relative;
+    margin-left: 510px;
+    top: -160px;
+  }
+
+  .education-ru {
+    position: relative;
+    margin-left: 720px;
+    top: 20px;
+  }
+
+  .education-stick-ru {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    top: 10px;
+  }
+
+  /* Для русской версии конец */
+
+
+  .main-title {
+    font-size: 20px !important;
+    margin-top: 20px !important;
+  }
+
+  .image-container-android {
+    display: none !important;
+  }
+
+  .dual-system {
+    padding-top: 80px !important;
+  }
+
+  .overlay {
+    height: 23% !important;
+  }
+
+  .space-wrapper-right {
+    position: relative !important;
+    left: -50px !important;
+  }
+
+  .content-rich-interfaces {
+    font-size: 14px !important;
+    gap: 10px !important;
+    width: 20% !important;
+    position: relative;
+    top: -115px;
+  }
+
+  .left-text {
+    width: 100% !important;
+    position: relative !important;
+    right: 0px !important;
+    top: -100px !important;
+    padding-right: 0px !important
+    right: 0px !important;
+    padding-left: 0px !important;
+    padding: 0 !important;
+    text-align: unset !important;
+    margin-right: 0px !important;
+    left: 0 !important;
+  }
+  .right-text {
+    width: 100% !important;
+    position: relative !important;
+    left: 0 !important;
+    right: 0px !important;
+    padding-left: 0px !important;
+    padding: 0 !important;
+    text-align: unset !important;
+  }
+  .dual-system {
+    width: 100% !important;
+  }
+
+  .android-color-parms {
+    white-space: nowrap !important;
+  }
+
+  .os-win-title {
+    white-space: nowrap !important;
+  }
+
+  .dual-system-content {
+    width: 100% !important;
+    z-index: 1;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./media/android_elips.png') no-repeat center center;
+    background-size: auto !important;
+    display: flex;
+    flex-direction: column;
+}
+
+  .dual-system-title {
+    font-size: 40px !important;
+  }
+  
+  .title-android-info {
+    font-size: 1.4em !important;
+  }
+  h2.info-dual-system {
+    font-size: 1.4em !important;
+  }
+  span.info-dual-system {
+    font-size: 0.8em !important;
+  }
+
+  .whiteboard {
+    width: 100% !important;
+    margin-top: -10px !important;
+    background-image: none !important;
+    padding: 0px 0px !important;
+  }
+
+  .whiteboard-title {
+    font-size: 30px !important;
+  }
+  .features-image {
+    visibility: hidden !important;
+    display: none !important;
+  }
+  
+  .features-list li {
+    font-size: 24px !important;
+    margin-top: -10px !important;
+  }
+
+  .features-list li::before {
+    margin-top: -5px;
+  }
+
+  .features-list {
+    width: 90% !important;
+    position: relative !important;
+    left: 10px !important;
+  }
+
+  .uhd-display-title {
+    font-size: 50px !important;
+    top: 0px !important;
+  }
+
+  
+  .text-info-display {
+    width: 70% !important;
+    position: relative !important;
+    font-size: 16px !important; 
+    left: -345px !important;
+    top: -30px !important;
+  }
+
+  .specs-right {
+    position: relative !important;
+    left: 110px !important;
+    color: white;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    width: 51% !important;
+  }
+
+  .specs-left {
+    width: 37% !important;
+  }
+  .specs-wrapper-middle {
+    left: 90px !important;
+  }
+
+  
+  .specs-right-middle {
+    position: relative !important;
+    left: 0px !important;
+    width: 100% !important; 
+  }
+
+  
+  .title-rich {
+    position: relative;
+    font-size: 38px !important;
+    left: -10% !important;
+    white-space: nowrap;
+  }
+
+  .image-circle {
+    width: max-content !important;
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+  }
+
+  .rich-interfaces {
+    position: relative !important;
+    padding: 0 !important;
+    top: -45px !important;
+  }
+
+
+  .screen {
+    width: 90% !important;
+    height: 30% !important;
+  }
+
+
+  .sizes-title {
+    top: 55px !important;
+    left: 35%;
+    font-size: 4rem;
+  }
+
+
+  .scenarios-for {
+    margin-top: 420px !important;
+  }
+
+  .scenario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0 !important;
+  }
+
+  .title-scenarios {
+    font-size: 46px !important;
+    left: 0 !important;
+    top: -300px !important;
+    white-space: nowrap;
+    margin-left: 0 !important;
+  }
+
+  .office {
+    position: relative;
+    margin-left: 0 !important;
+    margin-top: 50px !important;
+  }
+
+  .education {
+    position: relative;
+    margin-left: 0 !important;
+    top: 0px !important;
+  }
+
+  .education-stick {
+    margin-left: 20px !important;
+  }
+
+  .images-container {
+    display: flex !important;
+    float: none;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0 !important;
+  }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px) {
+  .strip-container {
+    top: 10px !important;
+  }
+
+  .title {
+    position: absolute !important;
+  }
+  .logo {
+    top: 50px !important;
+    transform: translateX(-100%) !important;
+  }
+  .logo img {
+    height: 40px !important;
+  }
+  .select-container {
+    transform: translateX(50%);
+  }
+
+  .header {
+    display: flex !important;
+  }
+  .top-info {
+    max-width: 100%;
+  }
+  .stripe {
+    visibility: hidden;
+    display: none !important;
+  }
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;    
+      appearance: none;         
+      background: transparent;  
+    }
+
+    select.open-select {
+      top: 70px;
+      width: 100px;
+      padding: 24px;
+      background: url('./media/planet.png') no-repeat center center;
+      background-size: 40px 40px;
+      background-color: transparent;
+      font-size: 0; /* Скрываем текст */
+    }
+    option {
+      font-size: 16px;
+      padding-left: 20px;
+    }
+
+    .interactive-board {
+      position: relative !important;
+      padding-top: 50px !important;
+    }
+
+    .board-image {
+      width: 450px !important;
+      height: auto !important;
+      max-height: 400px !important;
+    }
+
+    .info-title {
+      font-size: 18px !important;
+    }
+    
+    body {
+      height: 70vh !important;
+      background-size: 100vh !important;
+      max-width: 100% !important;
+      overflow-x: hidden !important;
+    }
+
+
+    .main-title {
+      font-size: 20px !important;
+      margin-top: 20px !important;
+    }
+
+    .image-container-android {
+      display: none !important;
+    }
+
+    .dual-system {
+      padding-top: 80px !important;
+    }
+
+    .overlay {
+      height: 23% !important;
+    }
+
+    .space-wrapper-right {
+      position: relative !important;
+      left: -50px !important;
+    }
+
+    .content-rich-interfaces {
+      position: relative;
+      font-size: 14px !important;
+      gap: 10px !important;
+      width: 20% !important;
+      top: -135px !important;
+    }
+
+    .left-text {
+      width: 100% !important;
+      position: relative !important;
+      right: 0px !important;
+      top: -100px !important;
+      padding-right: 0px !important;
+      margin-right: 0 !important;
+      padding: 0 !important;
+      text-align: unset !important;
+      left: 0 !important;
+    }
+    .right-text {
+      width: 100% !important;
+      position: relative !important;
+      left: 0 !important;
+      top: -125px !important;
+      right: 0px !important;
+      padding-left: 0px !important;
+      padding: 0 !important;
+      text-align: unset !important;
+    }
+    .dual-system {
+      width: 100% !important;
+    }
+
+    .android-color-parms {
+      white-space: nowrap !important;
+    }
+
+    .os-win-title {
+      white-space: nowrap !important;
+    }
+
+    .dual-system-content {
+      width: 100% !important;
+      z-index: 1;
+      background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./media/android_elips.png') no-repeat center center;
+      background-size: auto !important;
+      display: flex !important;
+      flex-direction: column;
+  }
+
+    .dual-system-title {
+      font-size: 40px !important;
+    }
+    
+    .title-android-info {
+      font-size: 1.4em !important;
+    }
+    h2.info-dual-system {
+      font-size: 1.4em !important;
+    }
+    span.info-dual-system {
+      font-size: 0.8em !important;
+    }
+
+    .whiteboard {
+      width: 100% !important;
+      margin-top: -15px !important;
+      background-image: none !important;
+      padding: 0px 0px !important;
+    }
+
+    .whiteboard-title {
+      font-size: 30px !important;
+    }
+    .features-image {
+      visibility: hidden !important;
+      display: none !important;
+    }
+    
+    .features-list li {
+      font-size: 24px !important;
+      margin-top: -10px !important;
+    }
+
+    .features-list li::before {
+      margin-top: -5px;
+    }
+
+    .features-list {
+      width: 90% !important;
+      position: relative !important;
+      left: 50px !important;
+      max-width: 400px;
+    }
+
+    .uhd-display-title {
+      font-size: 50px !important;
+      top: 0px !important;
+    }
+
+    .background {
+      height: 18% !important;
+    }
+
+    .monitor-container {
+      align-content: center !important;
+      justify-content: center !important;
+      top: 11% !important;
+      left: 50% !important;
+    }
+
+    .monitor-container-ru {
+      top: 11% !important;
+    }
+    .monitor {
+      width: 450px !important; 
+    }
+    .text-info-display {
+      width: 70% !important;
+      position: relative !important;
+      font-size: 16px !important; 
+      left: -320px !important;
+      top: -30px !important;
+    }
+
+    .specs-right {
+      position: relative !important;
+      left: 260px !important;
+      width: -10% !important;
+      margin-left: -220px !important;
+    }
+
+
+    .specs-left {
+      width: 37% !important;
+    }
+    .specs-wrapper-middle {
+      left: 90px !important;
+    }
+
+    .circle-media-div {
+      position: relative;
+      margin-top: -130px;
+    }
+    .specs-right-middle {
+      position: relative !important;
+      left: 100px !important;
+      width: 40% !important; 
+      margin-left: -150px;
+      white-space: nowrap;
+    }
+
+    .left-section {
+      max-width: 400px !important;
+      left: 220px !important;
+    }
+
+    .image-left {
+      width: 400px !important;
+    }
+    .image-right {
+      width: 300px !important;
+      height: 300px !important;
+    }
+    .right-section {
+      width: 100% !important;
+      left: 120px !important;
+    }
+    .title-rich {
+      position: relative;
+      font-size: 38px !important;
+      left: -15% !important;
+      white-space: nowrap;
+    }
+
+    .image-circle {
+      width: max-content !important;
+      max-width: 400px;
+      margin: 0 auto 20px auto;
+    }
+
+    .rich-interfaces {
+      position: relative !important;
+      padding: 0 !important;
+      margin-top: -0% !important;
+    }
+
+    .circle-media-div {
+      position: relative !important;
+      left: -50px !important;
+      top: -15% !important;
+    }
+
+    .screen {
+      width: 90% !important;
+      height: 45% !important;
+    }
+
+    .sizes-mon {
+      top: -130px !important;
+    }
+
+    .sizes-title {
+      top: 80px !important;
+      left: 100px;
+    }
+
+    .back-down {
+      background-size: 100vw 1200px !important;
+      top: -290px !important;
+    }
+
+    .scenarios-for {
+      margin-top: 520px !important;
+    }
+
+    .title-scenarios {
+      font-size: 46px !important;
+      margin-left: 85px !important;
+      top: -300px !important;
+    }
+
+    .office {
+      position: relative;
+      margin-left: 120px !important;
+      margin-top: 50px !important;
+    }
+
+    .education {
+      position: relative;
+      margin-left: 60px !important;
+      top: 0px !important;
+    }
+
+
+    .office-image {
+      position: relative;
+      width: 285px !important;
+      height: 190px !important;
+      bottom: 0px !important;
+      right: -27% !important;
+    }
+
+    .education-image {
+      position: relative;
+      width: 285px !important;
+      height: 190px !important;
+      bottom: -100px !important;
+      left: 27% !important;
+    }
+
+    .education-stick {
+      margin-left: 20px !important;
+    } 
+}
+
+@media screen and (min-width: 600px) and (max-width: 644px) {
+  .right-text {
+    width: 100% !important;
+    position: relative !important;
+    left: 2% !important;
+    top: -173px !important;
+  }
+}
+
+
+@media screen and (min-width: 645px) and (max-width: 699px) {
+  .right-text {
+    width: 100% !important;
+    position: relative !important;
+    left: 0% !important;
+    top: -190px !important;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 699px) {
+
+  .main-title-ru {
+    font-size: 18px !important;
+  }
+  
+  .left-text-ru {
+    padding-right: 5% !important;
+    left: 0% !important;
+  }
+
+
+
+  .right-text-ru {
+    right: 105px !important;
+    top: -200px !important;
+    padding-left: 120px !important;
+  }
+
+  .strip-container {
+    top: 10px;
+  }
+  
+  .top-info {
+    max-width: 100%;
+  }
+  .stripe {
+    visibility: hidden;
+    display: none !important;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;    
+    appearance: none;         
+    background: transparent;  
+  }
+  .title {
+    position: absolute !important;
+  }
+  .logo {
+    top: 40px !important;
+    transform: translateX(-100%) !important;
+  }
+  .logo img {
+    height: 50px !important;
+  }
+
+  .select-container {
+    transform: translateX(50%);
+  }
+
+  .header {
+    display: flex !important;
+  }
+
+  select.open-select {
+    top: 70px;
+    width: 100px;
+    padding: 24px;
+    background: url('./media/planet.png') no-repeat center center;
+    background-size: 50px 50px;
+    background-color: transparent;
+    font-size: 0; /* Скрываем текст */
+  }
+  option {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+
+  .interactive-board {
+    position: relative !important;
+    padding-top: 50px !important;
+  }
+
+  .board-image {
+    width: 400px !important;
+    height: auto !important;
+    max-height: 500px !important;
+  }
+
+  .info-title {
+    font-size: 18px !important;
+  }
+  
+  body {
+    height: 45vh !important;
+    background-size: 80vh !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+
+  .main-title {
+    font-size: 20px !important;
+    margin-top: 0px !important;
+  }
+
+  .uhd-display-title-ru {
+    font-size: 40px !important;
+    margin-bottom: -15px !important;
+  }
+
+  .text-info-display-ru {
+    font-size: 15px !important;
+  }
+
+  .title-rich-ru {
+    font-size: 32px !important;
+    margin-left: unset !important;
+  }
+  .info-dual-system-ru {
+    font-size: 16px !important;
+  }
+  
+  .title-android-info-ru {
+    font-size: 16px !important;
+  }
+  .dual-system {
+    padding-top: 80px !important;
+  }
+  .image-container-android {
+    display: none !important;
+  }
+  .os-win-info-ru {
+    font-size: 12px !important;
+  }
+  .header-os-ru {
+    font-size: 12px !important;
+  }
+  .image-container-android-ru {
+    display: none !important;
+  }
+  .overlay {
+    height: 27% !important;
+  }
+
+  .round-image {
+    width: 195px;
+    height: 215px;    
+  }
+
+  .space-wrapper-right {
+    position: relative !important;
+    left: -50px !important;
+  }
+
+  .content-rich-interfaces {
+    font-size: 14px !important;
+    gap: 10px !important;
+    width: 20% !important;
+  }
+
+  .left-text {
+    width: 100% !important;
+    position: relative !important;
+    right: -30px !important;
+    top: -100px !important;
+    padding-right: 0px !important;
+  }
+  
+  .dual-system {
+    width: 100% !important;
+  }
+
+  .android-color-parms {
+    white-space: nowrap !important;
+  }
+
+  .os-win-title {
+    white-space: nowrap !important;
+  }
+
+  .dual-system-content {
+    width: 100% !important;
+    z-index: 1;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./media/android_elips.png') no-repeat center center;
+    background-size: auto !important;
+    justify-content: flex-end !important;
+}
+
+  .dual-system-title {
+    font-size: 40px !important;
+  }
+  
+  .title-android-info {
+    font-size: 1.4em !important;
+  }
+  h2.info-dual-system {
+    font-size: 1.4em !important;
+  }
+  span.info-dual-system {
+    font-size: 0.8em !important;
+  }
+
+  .whiteboard {
+    width: 100% !important;
+    margin-top: 0px !important;
+    background-size: contain !important;
+    padding: 0px 0px !important;
+  }
+
+  .whiteboard-title {
+    font-size: 30px !important;
+  }
+  .features-image {
+    visibility: hidden !important;
+    display: none !important;
+  }
+  
+  .features-list li {
+    font-size: 24px !important;
+    margin-top: -10px !important;
+  }
+
+  .features-list li::before {
+    margin-top: -5px;
+  }
+
+  .features-list {
+    width: 90% !important;
+    position: relative !important;
+    left: 50px !important;
+    max-width: 400px;
+  }
+
+  .uhd-display-title {
+    font-size: 50px !important;
+    top: 0px !important;
+  }
+
+  .background {
+    height: 24% !important;
+  }
+
+  .monitor-container {
+    align-content: center !important;
+    justify-content: center !important;
+    top: 14% !important;
+    left: 50% !important;
+  }
+
+  .monitor-container-ru {
+    top: 14% !important;
+  }
+
+  .monitor {
+    width: 600px !important; 
+  }
+  .text-info-display {
+    width: 70% !important;
+    position: relative !important;
+    font-size: 24px !important; 
+    left: -290px !important;
+    top: -30px !important;
+  }
+
+  .specs-right {
+    position: relative !important;
+    left: 260px !important;
+    width: -10% !important;
+    margin-left: -180px !important;
+  }
+
+
+  .specs-left {
+    width: 23% !important;
+  }
+  .specs-wrapper-middle {
+    left: calc(70%) !important;
+  }
+
+  .space-wrappes-middle-inc {
+    left: calc(   20%) !important;
+  }
+
+  .circle-media-div {
+    position: relative;
+    margin-top: -50px;
+  }
+  .specs-right-middle {
+    position: relative !important;
+    left: 100px !important;
+    width: 40% !important; 
+    margin-left: -175px;
+    white-space: nowrap;
+  }
+
+  .left-section {
+    max-width: 600px !important;
+    left: 200% !important;
+    top: -100px;
+  }
+
+  .image-left {
+    width: 600px !important;
+  }
+  .image-right {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  .right-section {
+    width: 100% !important;
+    left: 100% !important;
+  }
+  .title-rich {
+    position: relative;
+    font-size: 60px !important;
+    left: 0% !important;
+    white-space: nowrap;
+  }
+
+  .image-circle {
+    width: max-content !important;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+  }
+
+  .rich-interfaces {
+    position: relative !important;
+    padding: 0 !important;
+    margin-top: -0% !important;
+  }
+
+  .circle-media-div {
+    position: relative !important;
+    left: -50px !important;
+    top: -15% !important;
+    z-index: 2;
+    width: 150% !important;
+  }
+
+  .screen {
+    width: 90% !important;
+    height: 55% !important;
+  }
+
+  .sizes-mon {
+    top: 10% !important;
+  }
+
+  .sizes-title {
+    top: 0px !important;
+    left: 315px;
+  }
+
+  .back-down {
+    background-size: 100vw 1200px !important;
+    top: 100% !important;
+  }
+
+  .scenarios-for {
+    margin-top: 520px !important;
+  }
+
+  .title-scenarios {
+    font-size: 46px !important;
+    margin-left: 0px !important;
+    top: -300px !important;
+  }
+
+  .office {
+    position: relative;
+    margin-left: 0px !important;
+    top: -15px !important;
+  }
+
+  .education {
+    position: relative;
+    margin-left: -55px !important;
+    top: 40px !important;
+  }
+
+  .images-container {
+    top: -270px !important;
+  }
+  .office-image {
+    position: relative;
+    width: 240px !important;
+    height: 150px !important;
+    bottom: 0px !important;
+    right: -270px !important;
+  }
+
+  .education-image {
+    position: relative;
+    width: 250px !important;
+    height: 150px !important;
+    bottom: 0px !important;
+    left: 315px !important;
+  }
+
+  .education-stick {
+    margin-left: 20px !important;
+  } 
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 812px) {
+
+  .office {
+    position: relative;
+    margin-left: 3% !important;
+    top: -15px !important;
+  }
+
+  .education {
+    position: relative;
+    margin-left: -5% !important;
+    top: 40px !important;
+  }
+
+
+  .office-image {
+    position: relative;
+    width: 260px !important;
+    height: 175px !important;
+    bottom: 0px !important;
+    right: -270px !important;
+  }
+
+  .education-image {
+    position: relative;
+    width: 260px !important;
+    height: 175px !important;
+    bottom: -215px !important;
+    left: 8% !important;
+  }
+}
+
+@media screen and (min-width: 813px) and (max-width: 868px) {
+
+  .office {
+    position: relative;
+    margin-left: 3% !important;
+    top: -15px !important;
+  }
+
+  .education {
+    position: relative;
+    margin-left: 5% !important;
+    top: 40px !important;
+  }
+
+  .office-image {
+    position: relative;
+    width: 325px !important;
+    height: 200px !important;
+    bottom: 0px !important;
+    right: -45% !important;
+  }
+
+  .education-image {
+    position: relative;
+    width: 325px !important;
+    height: 200px !important;
+    bottom: -165px !important;
+    left: 9% !important;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 868px) {
+  .strip-container {
+    top: 10px;
+  }
+  
+  .left-text-ru {
+    padding-right: 10%
+  }
+
+
+
+  .top-info {
+    max-width: 100%;
+  }
+  .stripe {
+    visibility: hidden;
+    display: none !important;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;    
+    appearance: none;         
+    background: transparent;  
+  }
+  .title {
+    position: absolute !important;
+  }
+  .logo {
+    top: 40px !important;
+    transform: translateX(-100%) !important;
+  }
+  .logo img {
+    height: 50px !important;
+  }
+
+  .select-container {
+    transform: translateX(50%);
+  }
+
+  .header {
+    display: flex !important;
+  }
+
+  select.open-select {
+    top: 70px;
+    width: 100px;
+    padding: 24px;
+    background: url('./media/planet.png') no-repeat center center;
+    background-size: 50px 50px;
+    background-color: transparent;
+    font-size: 0; /* Скрываем текст */
+  }
+  option {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+
+  .interactive-board {
+    position: relative !important;
+    padding-top: 50px !important;
+  }
+
+  .board-image {
+    width: 700px !important;
+    height: auto !important;
+    max-height: 600px !important;
+  }
+
+  .info-title {
+    font-size: 18px !important;
+  }
+  
+  body {
+    height: 45vh !important;
+    background-size: auto !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+
+  .main-title {
+    font-size: 34px !important;
+    margin-top: 20px !important;
+  }
+
+  .main-title-ru {
+    font-size: 26px !important;
+  }
+
+  
+
+  .dual-system {
+    padding-top: 80px !important;
+  }
+
+  .overlay {
+    height: 27% !important;
+  }
+
+  .round-image {
+    width: 195px !important;
+    height: 215px !important;    
+  }
+
+  .space-wrapper-right {
+    position: relative !important;
+    left: -50px !important;
+  }
+
+  .content-rich-interfaces {
+    font-size: 14px !important;
+    gap: 10px !important;
+    width: 20% !important;
+  }
+
+  .left-text {
+    width: 100% !important;
+    position: relative !important;
+    right: -30px !important;
+    top: -100px !important;
+    padding-right: 0px !important;
+  }
+  .right-text {
+    width: 100% !important;
+    position: relative !important;
+    left: -80px !important;
+    top: -180px !important;
+  }
+
+  .h2.info-dual-system-ru {
+    font-size: 1.4em !important;
+  }
+
+  .title-android-info-ru {
+    font-size: 20px !important;
+  }
+
+
+  .os-win-title-ru {
+    font-size: 20px !important;
+  }
+
+  .info-dual-system-ru {
+    font-size: 16px !important;
+  }
+  .dual-system {
+    width: 100% !important;
+  }
+  .image-container-android {
+    right: -15% !important;
+  }
+  .android-color-parms {
+    white-space: nowrap !important;
+  }
+
+  .os-win-title {
+    white-space: nowrap !important;
+  }
+
+  .dual-system-content {
+    width: 100% !important;
+    z-index: 1;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./media/android_elips.png') no-repeat center center;
+    background-size: auto !important;
+    justify-content: center !important;
+}
+
+  .dual-system-title {
+    font-size: 40px !important;
+  }
+  
+  .title-android-info {
+    font-size: 1.4em !important;
+  }
+  h2.info-dual-system {
+    font-size: 1.4em !important;
+  }
+  span.info-dual-system {
+    font-size: 0.8em !important;
+  }
+
+  .whiteboard {
+    width: 100% !important;
+    margin-top: 0px !important;
+    background-size: contain !important;
+    padding: 0px 0px !important;
+  }
+
+  .whiteboard-title {
+    font-size: 30px !important;
+  }
+  .features-image {
+    visibility: hidden !important;
+    display: none !important;
+  }
+  
+  .features-list li {
+    font-size: 24px !important;
+    margin-top: -10px !important;
+  }
+
+  .features-list li::before {
+    margin-top: -5px;
+  }
+
+  .features-list {
+    width: 90% !important;
+    position: relative !important;
+    left: 50px !important;
+    max-width: 400px;
+  }
+
+  .uhd-display-title {
+    font-size: 50px !important;
+    top: 0px !important;
+  }
+
+  .uhd-display-title-ru {
+    font-size: 50px !important;
+    top: 0px !important;
+  }
+
+  .sizes-title-ru {
+    right: unset !important;
+    top: -10px !important;
+  }
+
+  .right-text-ru {
+    padding-left: 145px !important;
+  }
+
+
+
+  .background {
+    height: 24% !important;
+  }
+
+  .monitor-container {
+    align-content: center !important;
+    justify-content: center !important;
+    top: 14% !important;
+    left: 50% !important;
+  }
+
+  .monitor-container-ru {
+    top: 14.5% !important;
+  }
+  .monitor {
+    width: 600px !important; 
+  }
+  .text-info-display {
+    width: 70% !important;
+    position: relative !important;
+    font-size: 24px !important; 
+    left: -290px !important;
+    top: -30px !important;
+  }
+
+  .specs-right {
+    position: relative !important;
+    left: 260px !important;
+    width: -10% !important;
+    margin-left: -180px !important;
+  }
+
+  .specs-right-middle li {
+    margin: 10px 40px !important;
+  }
+  .specs-left {
+    width: 23% !important;
+  }
+  .specs-wrapper-middle {
+    left: 25% !important;
+  }
+
+  .circle-media-div {
+    position: relative;
+    margin-top: -50px;
+  }
+  .specs-right-middle {
+    position: relative !important;
+    left: 100px !important;
+    width: 50% !important; 
+    margin-left: -175px;
+    white-space: nowrap;
+  }
+
+
+  .left-section {
+    max-width: 600px !important;
+    left: 200% !important;
+    top: -100px;
+  }
+
+  .image-left {
+    width: 600px !important;
+  }
+  .image-right {
+    width: 400px !important;
+    height: 400px !important;
+  }
+  .right-section {
+    width: 100% !important;
+    left: 125% !important;
+  }
+  .title-rich {
+    position: relative;
+    font-size: 60px !important;
+    left: 0% !important;
+    white-space: nowrap;
+  }
+
+  .title-rich-ru {
+    font-size: 3.8rem !important;
+    margin-left: 0 !important;
+  }
+
+  .image-circle {
+    width: max-content !important;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+  }
+
+  .rich-interfaces {
+    position: relative !important;
+    padding: 0 !important;
+    margin-top: -0% !important;
+  }
+
+  .circle-media-div {
+    position: relative !important;
+    left: -50px !important;
+    top: -15% !important;
+  }
+
+  .screen {
+    width: 90% !important;
+    height: 45% !important;
+  }
+
+  .sizes-mon {
+    top: 65px !important;
+    padding-top: 100px !important;
+  }
+
+  .sizes-title {
+    top: -1% !important;
+    left: 315px;
+  }
+
+  .back-down {
+    background-size: 100vw 1200px !important;
+    top: 100% !important;
+  }
+
+  .back-down-ru {
+    top: 100px !important;
+  }
+
+  .scenarios-for {
+    margin-top: 520px !important;
+  }
+
+  .title-scenarios {
+    font-size: 46px !important;
+    margin-left: 0px !important;
+    top: -300px !important;
+  }
+
+  .education-stick {
+    margin-left: 20px !important;
+  } 
+}
+
+
+
+
+@media screen and (min-width: 869px) and (max-width: 1199px) {
+  .stripe {
+    position: relative;
+    top: 0px;
+    width: 30vh !important;
+    height: 3px; /* Толщина полоски */
+    background-color: #4d4d4d; /* Цвет полоски */
+    margin: 24px auto; /* Центровка полоски */
+  }
+
+  .main-title-ru {
+    font-size: 28px !important;
+  }
+  
+  .left-text-ru {
+    left: 0% !important;
+    width: 100% !important;
+    margin-top: unset !important;
+  }
+
+
+
+  .right-text-ru {
+    padding-left: 100px !important;
+  }
+
+  .strip-container {
+    position: relative !important;
+    left: 10% !important;
+  }
+  .board-image {
+    width: 800px !important;
+    height: auto !important;
+    max-height: 500px !important;
+  }
+  
+  body {
+    height: 50vh;
+    background-size: auto !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .os-win-title-ru {
+    font-size: 24px !important;
+  }
+
+  .main-title {
+    font-weight: bold;
+    color: white; 
+    text-align: center;
+    margin-top: 20px !important;
+  }
+
+  .image-container-android {
+    top: -70px;
+    filter: none;
+    z-index: 3;
+    right: -14% !important;
+  }
+
+  .ru-point {
+    right: 0% !important;
+  }
+
+  .dual-system {
+    padding-top: 80px !important;
+  }
+
+  .overlay {
+    height: 35% !important;
+  }
+
+  .round-image {
+    width: 195px;
+    height: 215px;    
+  }
+
+  .space-wrapper-right {
+    position: relative !important;
+    left: 0px !important;
+  }
+
+  .content-rich-interfaces {
+    font-size: 14px !important;
+    gap: 10px !important;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .left-text {
+    width: 100% !important;
+    position: relative !important;
+    right: -30px !important;
+    top: -100px !important;
+    padding-right: 0px !important;
+  }
+  .right-text {
+    width: 100% !important;
+    position: relative !important;
+    left: -80px !important;
+    top: -180px !important;
+  }
+
+  .info-dual-system-ru {
+    font-size: 18px !important;
+  }
+
+  .title-android-info-ru {
+    font-size: 22px !important;
+  }
+
+  .dual-system {
+    width: 100% !important;
+  }
+
+  .android-color-parms {
+    white-space: nowrap !important;
+  }
+
+
+  .dual-system-content {
+    width: 100% !important;
+    z-index: 1;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./media/android_elips.png') no-repeat center center;
+    background-size: auto !important;
+    transform: translateX(9%);
+    max-width: min-content;
+}
+
+  .dual-system-title {
+    font-size: 40px !important;
+  }
+  
+  .title-android-info {
+    font-size: 1.4em !important;
+  }
+  h2.info-dual-system {
+    font-size: 1.4em !important;
+  }
+  span.info-dual-system {
+    font-size: 0.8em !important;
+  }
+
+  .whiteboard {
+    width: 100% !important;
+    margin-top: 0px !important;
+    background-size: contain !important;
+    padding: 0px 0px !important;
+  }
+
+  .features-image {
+    visibility: hidden !important;
+    display: none !important;
+  }
+  
+  .features-list li {
+    font-size: 24px !important;
+    margin-top: -10px !important;
+  }
+
+  .features-list li::before {
+    margin-top: -5px;
+  }
+
+  .features-list {
+    width: 90% !important;
+    position: relative !important;
+    left: 50px !important;
+    max-width: 400px;
+  }
+
+  .uhd-display-title {
+    font-size: 50px !important;
+    top: 0px !important;
+  }
+
+  .background {
+    height: 30% !important;
+  }
+
+  .monitor-container {
+    align-content: center !important;
+    justify-content: center !important;
+    top: 17.9% !important;
+    left: 50% !important;
+  }
+
+  .monitor-container-ru {
+    align-content: center !important;
+    justify-content: center !important;
+    top: 19% !important;
+  }
+  .monitor {
+    width: 800px !important; 
+  }
+  .text-info-display{
+    width: 70% !important;
+    position: relative !important;
+    font-size: 24px !important; 
+    left: -230px !important;
+    top: -30px !important;
+  }
+
+  .text-info-display-ru {
+    width: 70% !important;  
+  }
+
+  .specs-right {
+    position: relative !important;
+    left: 260px !important;
+    width: 75% !important;
+    margin-left: -180px !important;
+  }
+
+
+  .specs-left {
+    width: 23% !important;
+  }
+
+
+  .specs-right-middle {
+    position: relative !important;
+    left: 80% !important;
+    width: 40% !important; 
+    margin-left: 15px !important;
+    white-space: nowrap;
+  }
+
+  .left-section {
+    max-width: 700px !important;
+    left: 0 !important;
+    top: -100px;
+    margin-right: 0 !important;
+    margin-left: 20% !important;
+  }
+
+  .image-left {
+    width: 105% !important;
+  }
+  .image-right {
+    width: 95% !important;
+    height: 80% !important;
+  }
+  .right-section {
+    margin-right: 0 !important;
+    width: 20% !important;
+    margin-top: -20px !important;
+    align-self: anchor-center;
+  }
+  .title-rich {
+    position: relative;
+    font-size: 60px !important;
+    left: 0% !important;
+    white-space: nowrap;
+  }
+  .title-rich-ru {
+    white-space: nowrap;
+    font-size: 3.8rem !important;
+  }
+
+  .image-circle {
+    width: max-content !important;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    overflow: visible !important;
+  }
+
+  .rich-interfaces {
+    position: relative !important;
+    padding: 0 !important;
+    margin-top: 10% !important;
+    z-index: 1;
+  }
+
+  .circle-media-div {
+    position: relative !important;
+    left: -65% !important;
+    margin-top: -50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .screen {
+    width: 90% !important;
+    height: 80% !important;
+  }
+
+  .sizes-mon {
+    top: 0px !important;
+    margin-top: 0%;
+  }
+
+  .sizes-title {
+    top: 80px !important;
+    right: 25px !important;
+  }
+
+  .back-down {
+    background-size: 100vw 1200px !important;
+    top: 500px !important;
+  }
+
+  .scenarios-for {
+    margin-top: 520px !important;
+  }
+
+  .title-scenarios {
+    font-size: 75px !important;
+    margin-left: 0px !important;
+    top: -300px !important;
+  }
+
+  .office {
+    position: relative;
+    margin-left: 1% !important;
+    top: 40px !important;
+  }
+
+  .education {
+    position: relative;
+    margin-left: 10% !important;
+    top: 70px !important;
+  }
+
+
+  .office-image {
+    position: relative;
+    width: 350px !important;
+    height: 225px !important;
+    bottom: 0px !important;
+    right: -270px !important;
+  }
+
+  .education-image {
+    position: relative;
+    width: 350px !important;
+    height: 225px !important;
+    bottom: -180px !important;
+    left: 70px !important;
+  }
+
+  .education-stick {
+    margin-left: 20px !important;
+  } 
+}
+
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1320px) {
+  .stripe {
+    position: relative;
+    top: 0px;
+    width: 60vh; /* 70% ширины экрана */
+    height: 3px; /* Толщина полоски */
+    background-color: #4d4d4d; /* Цвет полоски */
+    margin: 24px auto; /* Центровка полоски */
+  }
+
+  .left-text {
+    padding-right: 30px !important;
+    left: 35px;
+  }
+
+  .image-container-android {
+    right: -17% !important;
+    justify-content: flex-start !important;
+  }
+
+
+  .info-dual-system-ru {
+    font-size: 22px !important;
+  }
+  .round-image {
+    height: 235px !important;
+  }
+
+  .right-text {
+    top: -120px !important;
+    right: 50px !important;
+  }
+
+  .monitor {
+    width: 1100px !important;
+  }
+
+  .monitor-container {
+    top: 27% !important;
+    left: 50% !important;
+  }
+  .monitor-container {
+    top: 27% !important;
+  }
+
+  .text-info-display {
+    width: 70% !important;
+    position: relative !important;
+    font-size: 30px !important; 
+    left: -200px !important;
+    top: -15px !important;
+  }
+
+  .title-rich {
+    position: relative;
+    font-size: 60px !important;
+    left: 0% !important;
+    white-space: nowrap;
+  }
+  .rich-interfaces {
+    margin-top: 0% !important;
+    position: relative;
+    z-index: 1
+  }
+
+  .right-section {
+    right: 0px !important;
+  }
+
+  .right-text-ru {
+    padding-left: 0 !important;
+  }
+  .screen {
+    width: 90% !important;
+    height: 90% !important;
+  }
+
+  .sizes-mon {
+    top: 0px !important;
+    margin-top: 0%;
+  }
+
+  .sizes-title {
+    right: 35px !important;
+    top: 50px !important;
+  }
+
+  .back-down {
+    background-size: 100vw 1200px !important;
+    top: 1050px !important;
+  }
+
+  .back-down-ru {
+    top: 1300px !important;
+  }
+
+  .scenarios-for {
+    margin-top: 520px !important;
+  }
+
+  .title-scenarios {
+    font-size: 50px !important;
+    margin-left: -6% !important;
+    top: 80px !important;
+  }
+
+  .office {
+    position: relative;
+    margin-left: 12% !important;
+    top: 40px !important;
+  }
+
+  .education {
+    position: relative;
+    margin-left: 27% !important;
+    top: 140px !important;
+  }
+
+
+  .office-image {
+    position: relative;
+    width: 450px !important;
+    height: 280px !important;
+    bottom: 0px !important;
+    right: -270px !important;
+  }
+
+  .education-image {
+    position: relative;
+    width: 450px !important;
+    height: 280px !important;
+    bottom: -180px !important;
+    left: 70px !important;
+  }
+
+  .education-stick {
+    margin-left: 20px !important;
+  } 
+}
+
+@media screen and (min-width: 1322px) and (max-width: 1600px) {
+  .stripe {
+    position: relative;
+    top: 0px;
+    width: 60vh; /* 70% ширины экрана */
+    height: 3px; /* Толщина полоски */
+    background-color: #4d4d4d; /* Цвет полоски */
+    margin: 24px auto; /* Центровка полоски */
+  }
+
+  .left-text {
+    padding-right: 30px !important;
+    left: 60px;
+  }
+
+  .image-container-android {
+    right: -140px !important;
+  }
+
+  .right-text-ru {
+    padding-left: 0 !important;
+  }
+
+  .round-image {
+    height: 235px !important;
+  }
+
+  .right-text {
+    top: -120px !important;
+    right: 50px !important;
+  }
+
+  .monitor {
+    width: 1300px !important;
+  }
+
+  .monitor-container {
+    top: 25% !important;
+    left: 50% !important;
+  }
+
+  .monitor-container-ru {
+    top: 25% !important;
+  }
+
+  .text-info-display {
+    width: 70% !important;
+    position: relative !important;
+    font-size: 30px !important; 
+    left: -180px !important;
+    top: -0px !important;
+  }
+
+  .title-rich {
+    position: relative;
+    font-size: 60px !important;
+    left: 0% !important;
+    white-space: nowrap;
+  }
+  .rich-interfaces {
+    margin-top: 0% !important;
+    position: relative;
+    z-index: 1
+  }
+
+  .right-section {
+    right: 0px !important;
+  }
+
+  .screen {
+    width: 90% !important;
+    height: 100% !important;
+  }
+
+  .sizes-mon {
+    top: 0px !important;
+    margin-top: 0%;
+  }
+
+  .sizes-title {
+    right: 35px !important;
+    top: 50px !important;
+  }
+
+  .back-down {
+    background-size: 100vw 1200px !important;
+    top: 1050px !important;
+  }
+
+  .scenarios-for {
+    margin-top: 520px !important;
+  }
+
+  .title-scenarios {
+    font-size: 60px !important;
+    margin-left: 0px !important;
+    top: 80px !important;
+  }
+
+  .office {
+    position: relative;
+    margin-left: 21% !important;
+    top: 40px !important;
+  }
+
+  .education {
+    position: relative;
+    margin-left: 35% !important;
+    top: 140px !important;
+  }
+
+  .back-down-ru {
+    top: 1300px !important;
+  }
+
+
+  .office-image {
+    position: relative;
+    width: 450px !important;
+    height: 280px !important;
+    bottom: 0px !important;
+    right: -270px !important;
+  }
+
+  .education-image {
+    position: relative;
+    width: 450px !important;
+    height: 280px !important;
+    bottom: -180px !important;
+    left: 70px !important;
+  }
+
+  .education-stick {
+    margin-left: 20px !important;
+  } 
+}
+@media screen and (min-width: 1601px) and (max-width: 1900px) {
+  .monitor {
+    width: 1100px !important;
+  }
+  .monitor-container {
+    top: 27% !important;
+    left: 50% !important;
+  }
+
+  .text-info-display {
+    width: 70% !important;
+    position: relative !important;
+    font-size: 30px !important; 
+    left: -170px !important;
+    top: -15px !important;
+  }
+
+  .title-rich-ru {
+    position: relative;
+    font-size: 60px !important;
+    left: 0% !important;
+    white-space: nowrap;
+  }
+
+  .title-rich {
+    position: relative;
+    font-size: 85px !important;
+    left: -20% !important;
+    white-space: nowrap;
+    top: 100px;
+  }
+  .rich-interfaces {
+    margin-top: -7% !important;
+    position: relative;
+    z-index: 1
+  }
+
+  .right-section {
+    right: 0px !important;
+  }
+
+  .screen {
+    width: 90% !important;
+    height: 100% !important;
+  }
+
+  .sizes-mon {
+    top: 0px !important;
+    margin-top: 0%;
+  }
+
+  .sizes-title {
+    right: 35px !important;
+    top: 50px !important;
+  }
+
+  .back-down {
+    background-size: 100vw 1200px !important;
+    top: 1050px !important;
+  }
+
+  .back-down-ru {
+    background-size: 100vw 1200px !important;
+    top: 1300px !important;
+  }
+
+  .scenarios-for {
+    margin-top: 520px !important;
+  }
+
+  .title-scenarios {
+    font-size: 75px !important;
+    margin-left: 0px !important;
+    top: 80px !important;
+  }
+
+  .office {
+    position: relative;
+    margin-left: 460px !important;
+    top: 40px !important;
+  }
+
+
+
+  .education {
+    position: relative;
+    margin-left: 630px !important;
+    top: 140px !important;
+  }
+
+
+  .office-image {
+    position: relative;
+    width: 450px !important;
+    height: 280px !important;
+    bottom: 0px !important;
+    right: -270px !important;
+  }
+
+  .education-image {
+    position: relative;
+    width: 450px !important;
+    height: 280px !important;
+    bottom: -180px !important;
+    left: 70px !important;
+  }
+
+  .education-stick {
+    margin-left: 20px !important;
+  } 
+}
