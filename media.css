@@ -1066,19 +1066,24 @@
   .left-text-ru {
     padding-right: 5% !important;
     left: 0% !important;
+    margin-top: unset !important;
   }
 
-
+  .sizes-title-ru {
+    top: -125px !important;
+    right: unset !important;
+  }
 
   .right-text-ru {
     right: 105px !important;
-    top: -200px !important;
     padding-left: 120px !important;
+    top: unset !important;
   }
 
   .strip-container {
     top: 10px;
   }
+
   
   .top-info {
     max-width: 100%;
@@ -1143,7 +1148,7 @@
   
   body {
     height: 45vh !important;
-    background-size: 80vh !important;
+    background-size: 100vh !important;
     max-width: 100% !important;
     overflow-x: hidden !important;
   }
@@ -1329,7 +1334,7 @@
   }
 
   .space-wrappes-middle-inc {
-    left: calc(   20%) !important;
+    left: calc(20%) !important;
   }
 
   .circle-media-div {
@@ -1394,8 +1399,18 @@
   }
 
   .sizes-mon {
-    top: 10% !important;
+    top: 3% !important;
   }
+
+  .sizes-mon-ru {
+    top: 10% !important;
+    padding-top: 0 !important;
+  }
+
+  .back-down-ru {
+    top: 30px !important;
+  }
+
 
   .sizes-title {
     top: 0px !important;
@@ -1429,6 +1444,14 @@
     top: 40px !important;
   }
 
+  .office-ru {
+    top: -55px !important;
+  }
+
+  .education-ru {
+    top: -15px !important;
+  }
+
   .images-container {
     top: -270px !important;
   }
@@ -1446,6 +1469,11 @@
     height: 150px !important;
     bottom: 0px !important;
     left: 315px !important;
+  }
+
+  .education-image-ru {
+    bottom: -135px !important;
+    left: 10% !important;
   }
 
   .education-stick {
